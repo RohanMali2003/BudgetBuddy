@@ -17,6 +17,7 @@ import {
 } from '@/bridge/smsListener';
 import { importSmsHistory } from '@/engines/importSmsHistory';
 import type { ImportProgress } from '@/engines/importSmsHistory';
+import RNFS from 'react-native-fs';
 import { slmEngine } from '@/engines/slmEngine';
 import { colors, spacing, borderRadius, fontSize, commonStyles } from '@/utils/theme';
 
@@ -27,6 +28,12 @@ export default function SettingsScreen({ navigation }: Props): React.JSX.Element
   const [isImporting, setIsImporting] = useState(false);
   const [importProgress, setImportProgress] = useState<ImportProgress | null>(null);
   const [importResult, setImportResult] = useState<string | null>(null);
+
+  // Model downloader state
+  const [isDownloadingModel, setIsDownloadingModel] = useState(false);
+  const [downloadProgress, setDownloadProgress] = useState(0);
+  const [downloadError, setDownloadError] = useState<string | null>(null);
+  const [modelAvailableState, setModelAvailableState] = useState(slmEngine.isModelAvailable());
 
   const handleSmsToggle = useCallback(
     async (value: boolean) => {
@@ -76,8 +83,47 @@ export default function SettingsScreen({ navigation }: Props): React.JSX.Element
     }
   }, []);
 
+  const handleDownloadModel = useCallback(async () => {
+    setIsDownloadingModel(true);
+    setDownloadProgress(0);
+    setDownloadError(null);
+
+    const dir = `${RNFS.ExternalDirectoryPath}/models`;
+    const targetPath = `${dir}/qwen2.5-0.5b-instruct-q4_k_m.gguf`;
+    const modelUrl = 'https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf';
+
+    try {
+      await RNFS.mkdir(dir);
+      const ret = RNFS.downloadFile({
+        fromUrl: modelUrl,
+        toFile: targetPath,
+        progress: (res) => {
+          if (res.contentLength > 0) {
+            const pct = Math.round((res.bytesWritten / res.contentLength) * 100);
+            setDownloadProgress(pct);
+          }
+        },
+        progressInterval: 250,
+      });
+
+      const res = await ret.promise;
+      if (res.statusCode === 200) {
+        slmEngine.setModelPath(targetPath);
+        setModelAvailableState(true);
+        Alert.alert('Success', 'AI Model downloaded and ready!');
+      } else {
+        setDownloadError(`Download failed with status ${res.statusCode}`);
+      }
+    } catch (err: any) {
+      console.error('[Settings] Model download failed:', err);
+      setDownloadError(err?.message ?? 'Failed to download model');
+    } finally {
+      setIsDownloadingModel(false);
+    }
+  }, []);
+
   const modelPath = slmEngine.getModelPath();
-  const modelAvailable = slmEngine.isModelAvailable();
+  const modelAvailable = modelAvailableState;
   const modelLoaded = slmEngine.isLoaded();
 
   return (
@@ -184,9 +230,37 @@ export default function SettingsScreen({ navigation }: Props): React.JSX.Element
             </>
           )}
           {!modelAvailable && (
-            <Text style={styles.modelHint}>
-              Place a GGUF model file in the app's models directory and restart.
-            </Text>
+            <View style={{ marginTop: spacing.sm }}>
+              {isDownloadingModel ? (
+                <View style={styles.progressContainer}>
+                  <View style={styles.progressBar}>
+                    <View
+                      style={[
+                        styles.progressFill,
+                        { width: `${downloadProgress}%` },
+                      ]}
+                    />
+                  </View>
+                  <Text style={styles.progressText}>
+                    Downloading AI Model... {downloadProgress}% (~398 MB)
+                  </Text>
+                </View>
+              ) : (
+                <TouchableOpacity
+                  style={styles.importButton}
+                  onPress={handleDownloadModel}
+                  activeOpacity={0.8}
+                >
+                  <Text style={styles.importButtonIcon}>🧠</Text>
+                  <Text style={styles.importButtonText}>Download AI Model (~398 MB)</Text>
+                </TouchableOpacity>
+              )}
+              {downloadError && (
+                <Text style={[styles.importResult, { color: colors.danger }]}>
+                  {downloadError}
+                </Text>
+              )}
+            </View>
           )}
         </View>
 

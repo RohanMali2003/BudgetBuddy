@@ -1,97 +1,86 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 💸 BudgetBuddy
 
-# Getting Started
+> **Privacy-First, On-Device Financial Intelligence**  
+> *Track spending automatically from bank SMS. Zero cloud. Zero tracking. 100% Local.*
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+BudgetBuddy is a commercial-grade, zero-cloud personal finance assistant built with **React Native** and powered by a **Dual-Engine Architecture**:
+- **Engine A (Deterministic Regex)**: Ultra-fast (< 5ms) deterministic parsing for standardized Indian bank SMS formats.
+- **Engine B (On-Device SLM)**: On-device Small Language Model (**Qwen 2.5 0.5B Instruct**) running locally via C++ `llama.rn` bindings for unstructured or non-standard SMS fallback.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+##📱 How It Works on Real Android Phones
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+On a physical Android phone, **no terminals, PowerShell, or ADB commands are needed!** BudgetBuddy is built as a complete consumer application:
 
-```sh
-# Using npm
-npm start
+1. **Automatic Transaction Tracking**:
+   - Grant SMS permission during Onboarding.
+   - Whenever you pay via UPI, Credit/Debit card, Net Banking, or receive a salary/refund, your phone's Android OS automatically triggers BudgetBuddy in the background.
+   - Transactions are instantly parsed and added to your Dashboard with zero user effort!
 
-# OR using Yarn
-yarn start
+2. **One-Tap Historical Import**:
+   - Tap **"Import SMS History"** in Settings or Onboarding.
+   - The app scans your existing inbox, parses all past bank SMS messages, and populates your full spending history in seconds.
+
+3. **One-Tap In-App AI Model Downloader**:
+   - Go to **Settings ⚙️ → SLM Model Status**.
+   - Tap **"Download AI Model (~398 MB)"**.
+   - BudgetBuddy downloads and configures the AI model directly on your phone with an in-app progress bar!
+
+---
+
+## 💻 Developer & Emulator Setup Guide
+
+If you are a developer testing in **BlueStacks**, **Android Studio Emulator**, or via **USB Debugging**:
+
+### Step 1: Install Dependencies
+```bash
+npm install
 ```
 
-## Step 2: Build and run your app
+### Step 2: Connect BlueStacks / Emulator / Phone
+- **BlueStacks**: Enable ADB in Settings → `adb connect localhost:5555`
+- **Physical Phone**: Enable USB Debugging in Developer Options → Plug in USB
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
+### Step 3: Run the App
+```bash
 npm run android
-
-# OR using Yarn
-yarn android
 ```
 
-### iOS
+---
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## 🧪 Developer Simulation & Testing (ADB CLI)
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+When testing on emulators where real cellular SMS does not arrive, you can simulate bank SMS using ADB:
 
-```sh
-bundle install
+```powershell
+# HDFC Debit Test
+adb emu sms send HDFCBK "Your a/c XX1234 was debited by Rs.450.00 on 31-Jul-26 for UPI txn to Swiggy. Avl Bal: Rs.12500.00"
+
+# Salary Credit Test
+adb emu sms send ICICIB "Rs 75,000.00 credited to a/c XX5678 on 31-JUL-26 by NEFT SALARY. Avl Bal Rs 1,12,000.00"
 ```
 
-Then, and every time you update your native dependencies, run:
+---
 
-```sh
-bundle exec pod install
-```
+## 📝 Sample Bank SMS Formats
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+BudgetBuddy automatically recognizes SMS formats from major Indian banks and payment apps:
 
-```sh
-# Using npm
-npm run ios
+| Bank / Provider | Sample SMS Text | Expected Output |
+| :--- | :--- | :--- |
+| **HDFC Bank** | `Your A/C XX4321 is debited for Rs.349.00 on 31-Jul-26 trf to SWIGGY. Avl Bal Rs.14,250.00.` | **DEBIT ₹349.00** (Food) |
+| **ICICI Bank** | `INR 2,499.00 spent on HDFC Bank Card XX9012 at AMAZON on 2026-07-31` | **DEBIT ₹2,499.00** (Shopping) |
+| **SBI / NEFT** | `Rs.75,000.00 credited to A/c XX5678 on 31-JUL-26 by SALARY NEFT.` | **CREDIT ₹75,000.00** (Income) |
+| **Airtel / Utilities** | `Paid Rs.1,250.00 to AIRTEL BILL from A/c XX1234 on 31-Jul-26` | **DEBIT ₹1,250.00** (Utilities) |
+| **Unstructured (Engine B)** | `Hey, ₹180 received in your account from Alex via UPI payment. Ref ID 981273.` | **CREDIT ₹180.00** (SLM AI Fallback) |
 
-# OR using Yarn
-yarn ios
-```
+---
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## 🛠️ Tech Stack & Architecture
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **UI Framework**: React Native 0.86 with TypeScript
+- **Database**: `@op-engineering/op-sqlite` with WAL mode
+- **SLM Engine**: `llama.rn` with C++ bindings for GGUF model execution
+- **State & Events**: Event Bus for real-time reactivity across screens
+- **Privacy Enforcement**: Hardcoded `NetworkBlockInterceptor` preventing any outgoing HTTP traffic
