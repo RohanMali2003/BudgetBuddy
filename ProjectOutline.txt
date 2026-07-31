@@ -1,0 +1,47 @@
+Project Overview
+The product is a "Zero-Cloud, Privacy-First SMS Financial Engine." It is an Android-exclusive personal finance application that bridges the gap between passive dashboards and active budgeting. Unlike traditional apps that require manual entry or rely on hostile banking APIs, this system passively reads local bank SMS alerts and categorizes them entirely on-device. No financial data ever leaves the phone.
+
+Core Tech Stack
+
+Framework: React Native (Bare Workflow - required for native Android modules).
+
+Local Database: SQLite or WatermelonDB (for fast, offline, on-device storage).
+
+On-Device AI: llama.rn (React Native bindings for llama.cpp) to run highly quantized Small Language Models (SLMs) like Qwen-2.5 (0.5B or 1.5B) or a distilled Gemma model.
+
+Native Bridge: Custom Kotlin/Java background service to intercept and read incoming SMS messages via Android's BroadcastReceiver.
+
+System Architecture & Execution Modules
+The application relies on a dual-engine architecture to optimize battery life and processing speed:
+
+The Ingestion Layer (Android SMS Listener):
+
+A native Android background service that requests READ_SMS and RECEIVE_SMS permissions.
+
+It filters incoming messages in real-time, instantly discarding personal texts and only capturing messages from standard Indian bank sender IDs (e.g., VM-HDFCbk, AD-ICICI, SBIUPI).
+
+The Parsing Layer (Dual-Engine Router):
+
+Engine A (Deterministic Regex): The first line of defense. A fast, hardcoded regex library that catches standard transactional formats, instantly extracting the Amount, Date, Merchant/VPA, and Type (Debit/Credit).
+
+Engine B (Local SLM Fallback): If a message fails the regex check (e.g., an unfamiliar merchant string or a new SMS format), the raw text is routed to the on-device Small Language Model for semantic extraction and categorization.
+
+The Intelligence & Categorization Layer:
+
+The quantized SLM acts as the reasoning engine to classify extracted merchants into strict budgeting categories (e.g., Food, Utilities, Transportation).
+
+Strict Constraint: The SLM handles semantics only. All financial math, aggregations, and goal tracking are handled deterministically by JavaScript/TypeScript.
+
+The Storage & UI Layer:
+
+Structured transaction JSONs are saved to the local SQLite/WatermelonDB database.
+
+The React Native UI provides a dashboard visualizing monthly trends, remaining budgets, and category-wise breakdowns pulled directly from the local database.
+
+Required Improvements & Constraints (For the Agent to Implement)
+
+Battery & Memory Optimization: The local SLM must be loaded into memory only when Engine B is triggered, and unloaded immediately after categorization to prevent battery drain.
+
+Asynchronous Processing: SMS parsing and SLM execution must happen on background threads so the React Native UI thread never drops frames or freezes.
+
+Security: Enforce strict sandboxing. The app must never make network requests containing parsed transaction data.

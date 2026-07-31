@@ -1,0 +1,9 @@
+export const APP_NAME = 'BudgetBuddy';
+export const DB_NAME = 'budgetbuddy.db';
+export const SLM_IDLE_TIMEOUT_MS = 60_000;
+export const SLM_MAX_TOKENS = 256;
+export const SLM_TEMPERATURE = 0.1;
+export const SLM_CONTEXT_SIZE = 512;
+export const MAX_SMS_LENGTH_FOR_SLM = 500;
+export const DEDUP_WINDOW_SECONDS = 60;
+export const TRANSACTIONS_PAGE_SIZE = 50;
