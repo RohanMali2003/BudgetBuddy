@@ -9,7 +9,7 @@ BudgetBuddy is a commercial-grade, zero-cloud personal finance assistant built w
 
 ---
 
-##📱 How It Works on Real Android Phones
+## 📱 How It Works on Android Phones
 
 On a physical Android phone, **no terminals, PowerShell, or ADB commands are needed!** BudgetBuddy is built as a complete consumer application:
 
