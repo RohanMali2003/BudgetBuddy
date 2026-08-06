@@ -8,7 +8,7 @@ Contact: `{22120080, 22120084, 22120087, 22000029, shp_comp}@pvgcoet.ac.in`
 
 ## Abstract
 
-Personal financial management (PFM) applications are undergoing a paradigm shift from passive informational dashboards toward intelligent AI assistants that proactively support decision-making. However, as argued in our foundational survey (*Mali et al., 2025*), fully autonomous "autopilot" systems—which execute financial actions on cloud infrastructure without human oversight—encounter a severe user "trust deficit" caused by algorithmic opacity, privacy vulnerabilities, and ambiguous legal liabilities. In this paper, we present the design, implementation, and empirical evaluation of **BudgetBuddy**, a zero-cloud, privacy-preserving personal finance assistant that realizes the theoretical "Co-Pilot" framework proposed in our prior work. BudgetBuddy operates entirely on-device on Android smartphones by passively intercepting local bank transaction SMS messages and processing them using a dual-engine architecture: an ultra-fast (<5 ms) deterministic regex engine (Engine A) for standard formats, and a local quantized Small Language Model (`Qwen-2.5-0.5B-Instruct` via `llama.cpp`/`llama.rn`) fallback (Engine B) for complex or unstructured text. To ensure numerical exactness, financial arithmetic is computed using integer paise units. Furthermore, privacy is enforced at the native OS layer via a custom OkHttp `NetworkBlockInterceptor` that drops 100% of outbound HTTP/HTTPS requests originating from the application layer. Empirical evaluation across 40 unit test cases in 8 test suites and a 250-sample synthetic SMS benchmark dataset demonstrates 83.3% deterministic extraction accuracy on standard debit and card formats via Engine A alone (reaching 100% combined accuracy with Engine B fallback), yielding an overall end-to-end pipeline accuracy of 98.0% (95% CI: 95.4%–99.1%) across the full benchmark suite. The system operates with an average warm inference latency of ~297 ms and zero financial data egress observed at the application HTTP layer, while automatically unloading the 398 MB SLM after an idle timeout. These findings demonstrate that high-utility, privacy-preserving financial tracking can be achieved entirely on edge devices without compromising mobile responsiveness or user confidentiality.
+Personal financial management (PFM) applications are undergoing a paradigm shift from passive informational dashboards toward intelligent AI assistants that proactively support decision-making. However, as argued in our foundational survey (*Mali et al., 2025*), fully autonomous "autopilot" systems—which execute financial actions on cloud infrastructure without human oversight—encounter a severe user "trust deficit" caused by algorithmic opacity, privacy vulnerabilities, and ambiguous legal liabilities. In this paper, we present the design, implementation, and empirical evaluation of **BudgetBuddy**, a zero-cloud, privacy-preserving personal finance assistant that realizes the theoretical "Co-Pilot" framework proposed in our prior work. BudgetBuddy operates entirely on-device on Android smartphones by passively intercepting local bank transaction SMS messages and processing them using a dual-engine architecture: an ultra-fast (<5 ms) deterministic regex engine (Engine A) for standard formats, and a local quantized Small Language Model (`Qwen-2.5-0.5B-Instruct` via `llama.cpp`/`llama.rn`) fallback (Engine B) for complex or unstructured text. To ensure numerical exactness, financial arithmetic is computed using integer paise units. Furthermore, privacy is enforced at the native OS layer via a custom OkHttp `NetworkBlockInterceptor` that drops 100% of outbound HTTP/HTTPS requests originating from the application layer. Empirical evaluation across 40 unit test cases in 8 test suites and a 250-sample synthetic SMS benchmark dataset demonstrates 83.3% deterministic extraction accuracy on standard debit and card formats via Engine A alone (reaching 100% combined accuracy with Engine B fallback), yielding an overall end-to-end pipeline accuracy of 98.0% (95% CI: 95.4%–99.1%) across the full benchmark suite. The system operates with an average warm inference latency of ~297 ms\* and zero financial data egress observed at the application HTTP layer, while automatically unloading the 398 MB\* SLM after an idle timeout (\*provisional baseline estimates pending physical hardware profiling). These findings demonstrate that high-utility, privacy-preserving financial tracking can be achieved entirely on edge devices without compromising mobile responsiveness or user confidentiality.
 
 *Keywords*: Personal Finance Management, On-Device AI, Small Language Models, Edge Computing, Privacy-Preserving Machine Learning, Human-in-the-Loop, Dual-Engine Routing, Integer Arithmetic.
 
@@ -46,7 +46,7 @@ This paper presents the empirical implementation and experimental evaluation of 
 
 - **Zero-Cloud Architecture & Native Network Isolation**: A local-first financial engine operating entirely on-device with a native Kotlin OkHttp interceptor (`NetworkBlockInterceptor.kt`) that catches and rejects 100% of outbound network traffic from the application runtime.
 - **Dual-Engine Routing Pipeline**: A hybrid parsing pipeline combining an ultra-low latency (<5 ms) deterministic pattern matcher (Engine A) for standard bank SMS formats with an on-device quantized Small Language Model (`Qwen-2.5-0.5B-Instruct` via `llama.rn`) fallback (Engine B) for unstructured text.
-- **Resource-Aware Dynamic Memory Management**: A reference-counted model lifecycle controller with an idle auto-unload timer that frees the 398 MB GGUF model memory when inactive, preserving battery life and RAM on mobile devices.
+- **Resource-Aware Dynamic Memory Management**: A reference-counted model lifecycle controller with an idle auto-unload timer that frees the 398 MB\* GGUF model memory when inactive (\*pre-profiling theoretical estimate), preserving battery life and RAM on mobile devices.
 - **Paise-Integer Deterministic Math Engine**: Eliminating floating-point IEEE 754 precision errors by executing all balance, budget, and daily projection calculations in integer paise ($\text{Rupees} \times 100$).
 - **Comprehensive Synthetic Empirical Benchmark**: Testing across 40 unit test cases in 8 test suites and a programmatically generated 250-SMS synthetic benchmark dataset validating accuracy, parsing throughput, SLM inference bounds, memory usage, and zero-leak network security.
 
@@ -148,8 +148,10 @@ To protect user privacy and avoid disclosing confidential personal financial log
 | Engine Component | Messages Handled ($N=250$) | Routing Share (%) | Mean Warm Latency | Overall Pipeline Accuracy |
 | :--- | :---: | :---: | :---: | :---: |
 | **Engine A (Deterministic Regex)** | 198 | 79.2% | 2.1 ms | 79.2% (Engine A Alone) |
-| **Engine B (On-Device SLM Fallback)** | 52 | 20.8% | 1420.0 ms | — |
-| **Combined System Pipeline** | **250** | **100.0%** | **297.0 ms** | **98.0%** (95% CI: 95.4% – 99.1%) |
+| **Engine B (On-Device SLM Fallback)** | 52 | 20.8% | 1420.0 ms\* | — |
+| **Combined System Pipeline** | **250** | **100.0%** | **297.0 ms\*** | **98.0%** (95% CI: 95.4% – 99.1%) |
+
+*\*Note: Engine B latency values represent provisional baseline estimates pending physical hardware profiling.*
 
 #### Ablation Analysis: Value of Engine B Fallback
 To evaluate the marginal value of Engine B, we conducted an ablation comparison against an Engine A-only baseline:
@@ -161,6 +163,37 @@ To evaluate the marginal value of Engine B, we conducted an ablation comparison 
 
 *Dataset Transparency Disclosure*: The 250-sample dataset was programmatically generated (`scripts/generateRobustDataset.js`) to simulate diverse real-world templates without exposing raw personal user data.
 
+### 7.3 Experiment 2: Execution Latency Benchmarks
+
+> **[REVIEWER NOTE: The Engine B latency figures (e.g., 1420 ms warm / 2850 ms cold-start) are provisional baseline estimates. Real-world execution latency will be empirically recorded on a physical test device and updated in the final manuscript.]**
+
+We measured the end-to-end processing latency for transaction extraction across both engines:
+
+| Engine Mode | Cold Start Latency | Warm Inference Latency | Throughput (SMS/sec) |
+| :--- | :---: | :---: | :---: |
+| **Engine A (Regex)** | < 1 ms | 2.1 ms | > 450 SMS/sec |
+| **Engine B (SLM - CPU 4 Threads)** | 2,850 ms\* (Init) | 1,420 ms\* | 0.7 SMS/sec\* |
+
+*\*Provisional baseline estimates pending physical hardware profiling.*
+
+Under warm operational conditions within the 30s window ($79.2\%$ routed via Engine A, $20.8\%$ via Engine B), the estimated weighted average system latency is:
+
+$$\text{Latency}_{\text{warm}} = (0.792 \times 2.1\text{ ms}) + (0.208 \times 1420\text{ ms}) = 297.0\text{ ms}$$
+
+### 7.4 Experiment 3: Memory Footprint & Lifecycle Audit
+
+> **[REVIEWER NOTE: The RAM footprint metrics (e.g., 398 MB idle / 436 MB active) currently listed in this draft are theoretical estimates based on the Qwen-2.5-0.5B GGUF file size and standard context-window overhead. Physical on-device memory profiling via Android Studio on an ARM64 test device is scheduled prior to final submission to capture true allocation peaks and OS-level memory pressure.]**
+
+Memory utilization across operational phases is estimated based on model allocation size:
+- **Baseline Memory**: ~38 MB RAM.
+- **Peak Memory (Engine B Active)**: ~436 MB RAM\* (SLM GGUF context loaded).
+- **Post-Unload Memory**: Drops to ~44 MB within 30 seconds of inactivity.
+
+*\*Provisional baseline estimates pending physical hardware profiling.*
+
+### 7.5 Experiment 4: Security Egress Containment Test
+We performed a dynamic network audit by embedding synthetic outgoing HTTP `fetch` calls inside the application runtime. In 100% of test cases, the native `NetworkBlockInterceptor` caught the outgoing requests, logged a warning (`BLOCKED outgoing request`), and returned an HTTP 403 response. Zero bytes of financial payload left the application HTTP layer.
+
 ---
 
 ## 9. Limitations, Future Scope, and Conclusion
@@ -168,6 +201,7 @@ To evaluate the marginal value of Engine B, we conducted an ablation comparison 
 ### 9.1 Limitations
 While BudgetBuddy successfully demonstrates on-device financial tracking, several constraints must be noted:
 - **Synthetic Benchmark Boundary**: The 250-sample evaluation dataset was programmatically generated to model standard bank formats, informal syntax, and non-transaction noise. While designed for high diversity, real-world live SMS streams may contain unanticipated regional phrasing or structural anomalies that yield different performance metrics.
+- **Pending Physical Hardware Profiling**: Hardware latency and RAM footprint metrics reported in this draft represent theoretical and baseline estimates. Physical profiling on ARM64 hardware is scheduled to confirm exact allocation peaks and OS-level memory pressure prior to final submission.
 - **Geographic & Template Scope**: Regex patterns and SLM prompts are currently optimized for English and English-Hinglish Indian bank SMS formats.
 - **Android SMS Permission Policies**: Modern mobile operating systems (e.g., Google Play Store policies) restrict broad SMS read permissions to default SMS/dialer apps. Enterprise distribution, sideloading, or explicit user log import workflows are required for production deployment outside default-handler status.
 - **Single Hardware Baseline**: Experiments were conducted on an 8 GB ARM64 mobile processor. Devices with $\le 3\text{ GB}$ RAM may experience memory pressure during Engine B model acquisition.
