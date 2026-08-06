@@ -1,0 +1,2430 @@
+[
+  {
+    "id": 1,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX1000 was debited by Rs.37.75 on 01-Aug-26 for UPI txn to Swiggy. Avl Bal: Rs.15000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 37.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 2,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 75.50 spent on AD-ICICIB Card XX1037 at ZOMATO on 2026-08-02. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 75.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 3,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX1074 debited with Rs 113.25 on 03-Aug-26; Merchant: Amazon India",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 113.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 4,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.151.00 to flipkart@upi from a/c XX1111",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 151,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 5,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.188.75 debited from a/c XX1148 on 05-Aug-26 info: UPI/Uber India/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 188.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 6,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.226.50 from a/c XX1185 at HDFC ATM Pune branch on 06-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 226.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 7,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX1222 was debited by Rs.264.25 on 07-Aug-26 for UPI txn to Zepto Quick. Avl Bal: Rs.15600.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 264.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 8,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 302.00 spent on IDFCFB Card XX1259 at BLINKIT COMMERCE on 2026-08-08. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 302,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 9,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX1296 debited with Rs 339.75 on 09-Aug-26; Merchant: Apollo Pharmacy",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 339.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 10,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.377.50 to netflixservices@upi from a/c XX1333",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 377.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 11,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.415.25 debited from a/c XX1370 on 11-Aug-26 info: UPI/BookMyShow/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 415.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 12,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.453.00 from a/c XX1407 at HDFC ATM Pune branch on 12-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 453,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 13,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX1444 was debited by Rs.490.75 on 13-Aug-26 for UPI txn to RelDigital. Avl Bal: Rs.16200.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 490.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 14,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 528.50 spent on AD-ICICIB Card XX1481 at DECATHLON on 2026-08-14. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 528.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 15,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX1518 debited with Rs 566.25 on 15-Aug-26; Merchant: DMart Store",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 566.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 16,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.604.00 to starbuckscoffee@upi from a/c XX1555",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 604,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 17,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.641.75 debited from a/c XX1592 on 17-Aug-26 info: UPI/Swiggy/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 641.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 18,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.679.50 from a/c XX1629 at HDFC ATM Pune branch on 18-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 679.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 19,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX1666 was debited by Rs.717.25 on 19-Aug-26 for UPI txn to Amazon India. Avl Bal: Rs.16800.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 717.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 20,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 755.00 spent on IDFCFB Card XX1703 at FLIPKART on 2026-08-20. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 755,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 21,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX1740 debited with Rs 792.75 on 21-Aug-26; Merchant: Uber India",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 792.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 22,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.830.50 to olacabs@upi from a/c XX1777",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 830.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 23,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.868.25 debited from a/c XX1814 on 23-Aug-26 info: UPI/Zepto Quick/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 868.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 24,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.906.00 from a/c XX1851 at HDFC ATM Pune branch on 24-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 906,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 25,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX1888 was debited by Rs.943.75 on 25-Aug-26 for UPI txn to Apollo Pharmacy. Avl Bal: Rs.17400.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 943.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 26,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 981.50 spent on AD-ICICIB Card XX1925 at NETFLIX SERVICES on 2026-08-26. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 981.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 27,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX1962 debited with Rs 1019.25 on 27-Aug-26; Merchant: BookMyShow",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1019.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 28,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.1057.00 to bigbasketgrocery@upi from a/c XX1999",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1057,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 29,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.1094.75 debited from a/c XX2036 on 01-Aug-26 info: UPI/RelDigital/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1094.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 30,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.1132.50 from a/c XX2073 at HDFC ATM Pune branch on 02-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1132.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 31,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX2110 was debited by Rs.1170.25 on 03-Aug-26 for UPI txn to DMart Store. Avl Bal: Rs.18000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1170.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 32,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 1208.00 spent on IDFCFB Card XX2147 at STARBUCKS COFFEE on 2026-08-04. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1208,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 33,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX2184 debited with Rs 1245.75 on 05-Aug-26; Merchant: Swiggy",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1245.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 34,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.1283.50 to zomato@upi from a/c XX2221",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1283.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 35,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.1321.25 debited from a/c XX2258 on 07-Aug-26 info: UPI/Amazon India/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1321.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 36,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.1359.00 from a/c XX2295 at HDFC ATM Pune branch on 08-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1359,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 37,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX2332 was debited by Rs.1396.75 on 09-Aug-26 for UPI txn to Uber India. Avl Bal: Rs.18600.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1396.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 38,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 1434.50 spent on AD-ICICIB Card XX2369 at OLA CABS on 2026-08-10. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1434.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 39,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX2406 debited with Rs 1472.25 on 11-Aug-26; Merchant: Zepto Quick",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1472.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 40,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.1510.00 to blinkitcommerce@upi from a/c XX2443",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1510,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 41,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.1547.75 debited from a/c XX2480 on 13-Aug-26 info: UPI/Apollo Pharmacy/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1547.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 42,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.1585.50 from a/c XX2517 at HDFC ATM Pune branch on 14-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1585.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 43,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX2554 was debited by Rs.1623.25 on 15-Aug-26 for UPI txn to BookMyShow. Avl Bal: Rs.19200.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1623.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 44,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 1661.00 spent on IDFCFB Card XX2591 at BIGBASKET GROCERY on 2026-08-16. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1661,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 45,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX2628 debited with Rs 1698.75 on 17-Aug-26; Merchant: RelDigital",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1698.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 46,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.1736.50 to decathlon@upi from a/c XX2665",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1736.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 47,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.1774.25 debited from a/c XX2702 on 19-Aug-26 info: UPI/DMart Store/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1774.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 48,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.1812.00 from a/c XX2739 at HDFC ATM Pune branch on 20-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1812,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 49,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX2776 was debited by Rs.1849.75 on 21-Aug-26 for UPI txn to Swiggy. Avl Bal: Rs.19800.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1849.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 50,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 1887.50 spent on AD-ICICIB Card XX2813 at ZOMATO on 2026-08-22. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1887.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 51,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX2850 debited with Rs 1925.25 on 23-Aug-26; Merchant: Amazon India",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1925.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 52,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.1963.00 to flipkart@upi from a/c XX2887",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1963,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 53,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.2000.75 debited from a/c XX2924 on 25-Aug-26 info: UPI/Uber India/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2000.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 54,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.2038.50 from a/c XX2961 at HDFC ATM Pune branch on 26-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2038.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 55,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX2998 was debited by Rs.2076.25 on 27-Aug-26 for UPI txn to Zepto Quick. Avl Bal: Rs.20400.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2076.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 56,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 2114.00 spent on IDFCFB Card XX3035 at BLINKIT COMMERCE on 2026-08-28. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2114,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 57,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX3072 debited with Rs 2151.75 on 01-Aug-26; Merchant: Apollo Pharmacy",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2151.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 58,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.2189.50 to netflixservices@upi from a/c XX3109",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2189.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 59,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.2227.25 debited from a/c XX3146 on 03-Aug-26 info: UPI/BookMyShow/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2227.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 60,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.2265.00 from a/c XX3183 at HDFC ATM Pune branch on 04-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2265,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 61,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX3220 was debited by Rs.2302.75 on 05-Aug-26 for UPI txn to RelDigital. Avl Bal: Rs.21000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2302.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 62,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 2340.50 spent on AD-ICICIB Card XX3257 at DECATHLON on 2026-08-06. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2340.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 63,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX3294 debited with Rs 2378.25 on 07-Aug-26; Merchant: DMart Store",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2378.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 64,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.2416.00 to starbuckscoffee@upi from a/c XX3331",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2416,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 65,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.2453.75 debited from a/c XX3368 on 09-Aug-26 info: UPI/Swiggy/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2453.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 66,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.2491.50 from a/c XX3405 at HDFC ATM Pune branch on 10-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2491.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 67,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX3442 was debited by Rs.2529.25 on 11-Aug-26 for UPI txn to Amazon India. Avl Bal: Rs.21600.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2529.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 68,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 2567.00 spent on IDFCFB Card XX3479 at FLIPKART on 2026-08-12. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2567,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 69,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX3516 debited with Rs 2604.75 on 13-Aug-26; Merchant: Uber India",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2604.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 70,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.2642.50 to olacabs@upi from a/c XX3553",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2642.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 71,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.2680.25 debited from a/c XX3590 on 15-Aug-26 info: UPI/Zepto Quick/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2680.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 72,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.2718.00 from a/c XX3627 at HDFC ATM Pune branch on 16-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2718,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 73,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX3664 was debited by Rs.2755.75 on 17-Aug-26 for UPI txn to Apollo Pharmacy. Avl Bal: Rs.22200.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2755.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 74,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 2793.50 spent on AD-ICICIB Card XX3701 at NETFLIX SERVICES on 2026-08-18. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2793.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 75,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX3738 debited with Rs 2831.25 on 19-Aug-26; Merchant: BookMyShow",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2831.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 76,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.2869.00 to bigbasketgrocery@upi from a/c XX3775",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2869,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 77,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.2906.75 debited from a/c XX3812 on 21-Aug-26 info: UPI/RelDigital/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2906.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 78,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.2944.50 from a/c XX3849 at HDFC ATM Pune branch on 22-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2944.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 79,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX3886 was debited by Rs.2982.25 on 23-Aug-26 for UPI txn to DMart Store. Avl Bal: Rs.22800.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 2982.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 80,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 3020.00 spent on IDFCFB Card XX3923 at STARBUCKS COFFEE on 2026-08-24. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3020,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 81,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX3960 debited with Rs 3057.75 on 25-Aug-26; Merchant: Swiggy",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3057.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 82,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.3095.50 to zomato@upi from a/c XX3997",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3095.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 83,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.3133.25 debited from a/c XX4034 on 27-Aug-26 info: UPI/Amazon India/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3133.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 84,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.3171.00 from a/c XX4071 at HDFC ATM Pune branch on 28-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3171,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 85,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX4108 was debited by Rs.3208.75 on 01-Aug-26 for UPI txn to Uber India. Avl Bal: Rs.23400.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3208.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 86,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 3246.50 spent on AD-ICICIB Card XX4145 at OLA CABS on 2026-08-02. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3246.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 87,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX4182 debited with Rs 3284.25 on 03-Aug-26; Merchant: Zepto Quick",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3284.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 88,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.3322.00 to blinkitcommerce@upi from a/c XX4219",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3322,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 89,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.3359.75 debited from a/c XX4256 on 05-Aug-26 info: UPI/Apollo Pharmacy/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3359.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 90,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.3397.50 from a/c XX4293 at HDFC ATM Pune branch on 06-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3397.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 91,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX4330 was debited by Rs.3435.25 on 07-Aug-26 for UPI txn to BookMyShow. Avl Bal: Rs.24000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3435.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 92,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 3473.00 spent on IDFCFB Card XX4367 at BIGBASKET GROCERY on 2026-08-08. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3473,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 93,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX4404 debited with Rs 3510.75 on 09-Aug-26; Merchant: RelDigital",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3510.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 94,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.3548.50 to decathlon@upi from a/c XX4441",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3548.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 95,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.3586.25 debited from a/c XX4478 on 11-Aug-26 info: UPI/DMart Store/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3586.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 96,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.3624.00 from a/c XX4515 at HDFC ATM Pune branch on 12-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3624,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 97,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX4552 was debited by Rs.3661.75 on 13-Aug-26 for UPI txn to Swiggy. Avl Bal: Rs.24600.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3661.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 98,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 3699.50 spent on AD-ICICIB Card XX4589 at ZOMATO on 2026-08-14. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3699.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 99,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX4626 debited with Rs 3737.25 on 15-Aug-26; Merchant: Amazon India",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3737.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 100,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.3775.00 to flipkart@upi from a/c XX4663",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3775,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 101,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.3812.75 debited from a/c XX4700 on 17-Aug-26 info: UPI/Uber India/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3812.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 102,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.3850.50 from a/c XX4737 at HDFC ATM Pune branch on 18-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3850.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 103,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX4774 was debited by Rs.3888.25 on 19-Aug-26 for UPI txn to Zepto Quick. Avl Bal: Rs.25200.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3888.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 104,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 3926.00 spent on IDFCFB Card XX4811 at BLINKIT COMMERCE on 2026-08-20. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3926,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 105,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX4848 debited with Rs 3963.75 on 21-Aug-26; Merchant: Apollo Pharmacy",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 3963.75,
+    "expectedMerchant": "Apollo Pharmacy"
+  },
+  {
+    "id": 106,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.4001.50 to netflixservices@upi from a/c XX4885",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4001.5,
+    "expectedMerchant": "Netflix Services"
+  },
+  {
+    "id": 107,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.4039.25 debited from a/c XX4922 on 23-Aug-26 info: UPI/BookMyShow/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4039.25,
+    "expectedMerchant": "BookMyShow"
+  },
+  {
+    "id": 108,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.4077.00 from a/c XX4959 at HDFC ATM Pune branch on 24-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4077,
+    "expectedMerchant": "BigBasket Grocery"
+  },
+  {
+    "id": 109,
+    "category": "Standard Debits & Cards",
+    "sender": "VM-HDFCBK",
+    "body": "Your a/c XX4996 was debited by Rs.4114.75 on 25-Aug-26 for UPI txn to RelDigital. Avl Bal: Rs.25800.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4114.75,
+    "expectedMerchant": "RelDigital"
+  },
+  {
+    "id": 110,
+    "category": "Standard Debits & Cards",
+    "sender": "AD-ICICIB",
+    "body": "INR 4152.50 spent on AD-ICICIB Card XX5033 at DECATHLON on 2026-08-26. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4152.5,
+    "expectedMerchant": "Decathlon"
+  },
+  {
+    "id": 111,
+    "category": "Standard Debits & Cards",
+    "sender": "SBIINB",
+    "body": "Acct XX5070 debited with Rs 4190.25 on 27-Aug-26; Merchant: DMart Store",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4190.25,
+    "expectedMerchant": "DMart Store"
+  },
+  {
+    "id": 112,
+    "category": "Standard Debits & Cards",
+    "sender": "AXISBK",
+    "body": "Paid Rs.4228.00 to starbuckscoffee@upi from a/c XX5107",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4228,
+    "expectedMerchant": "Starbucks Coffee"
+  },
+  {
+    "id": 113,
+    "category": "Standard Debits & Cards",
+    "sender": "KOTAKB",
+    "body": "Dear Customer, Rs.4265.75 debited from a/c XX5144 on 01-Aug-26 info: UPI/Swiggy/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4265.75,
+    "expectedMerchant": "Swiggy"
+  },
+  {
+    "id": 114,
+    "category": "Standard Debits & Cards",
+    "sender": "PNBSMS",
+    "body": "ATM cash withdrawal of Rs.4303.50 from a/c XX5181 at HDFC ATM Pune branch on 02-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4303.5,
+    "expectedMerchant": "Zomato"
+  },
+  {
+    "id": 115,
+    "category": "Standard Debits & Cards",
+    "sender": "BOBTXN",
+    "body": "Your a/c XX5218 was debited by Rs.4341.25 on 03-Aug-26 for UPI txn to Amazon India. Avl Bal: Rs.26400.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4341.25,
+    "expectedMerchant": "Amazon India"
+  },
+  {
+    "id": 116,
+    "category": "Standard Debits & Cards",
+    "sender": "IDFCFB",
+    "body": "INR 4379.00 spent on IDFCFB Card XX5255 at FLIPKART on 2026-08-04. Avl Limit: Rs.50000.00",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4379,
+    "expectedMerchant": "Flipkart"
+  },
+  {
+    "id": 117,
+    "category": "Standard Debits & Cards",
+    "sender": "INDUSB",
+    "body": "Acct XX5292 debited with Rs 4416.75 on 05-Aug-26; Merchant: Uber India",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4416.75,
+    "expectedMerchant": "Uber India"
+  },
+  {
+    "id": 118,
+    "category": "Standard Debits & Cards",
+    "sender": "CANBNK",
+    "body": "Paid Rs.4454.50 to olacabs@upi from a/c XX5329",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4454.5,
+    "expectedMerchant": "Ola Cabs"
+  },
+  {
+    "id": 119,
+    "category": "Standard Debits & Cards",
+    "sender": "YESBNK",
+    "body": "Dear Customer, Rs.4492.25 debited from a/c XX5366 on 07-Aug-26 info: UPI/Zepto Quick/Ref901283.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4492.25,
+    "expectedMerchant": "Zepto Quick"
+  },
+  {
+    "id": 120,
+    "category": "Standard Debits & Cards",
+    "sender": "UNIONB",
+    "body": "ATM cash withdrawal of Rs.4530.00 from a/c XX5403 at HDFC ATM Pune branch on 08-Aug-26.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 4530,
+    "expectedMerchant": "Blinkit Commerce"
+  },
+  {
+    "id": 121,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Rs 145.50 credited to a/c XX5000 on 1-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 120000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 145.5
+  },
+  {
+    "id": 122,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Received Rs.291.00 from rahul.sharma@okaxis to A/c XX5029 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 291
+  },
+  {
+    "id": 123,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Acct XX5058 has been credited with Rs.436.50 on 3/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 436.5
+  },
+  {
+    "id": 124,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Notice: Rs.582.00 deposited in bank account ending 5087 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 582
+  },
+  {
+    "id": 125,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Alert: Account ending 5116 received money transfer worth INR 727.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 727.5,
+    "simulatedSlmOutput": {
+      "amount": 727.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 126,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Rs 873.00 credited to a/c XX5145 on 6-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 122500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 873
+  },
+  {
+    "id": 127,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Received Rs.1018.50 from rahul.sharma@okaxis to A/c XX5174 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1018.5
+  },
+  {
+    "id": 128,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Acct XX5203 has been credited with Rs.1164.00 on 8/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1164
+  },
+  {
+    "id": 129,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Notice: Rs.1309.50 deposited in bank account ending 5232 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1309.5
+  },
+  {
+    "id": 130,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Alert: Account ending 5261 received money transfer worth INR 1455.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1455,
+    "simulatedSlmOutput": {
+      "amount": 1455,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 131,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Rs 1600.50 credited to a/c XX5290 on 11-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 125000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1600.5
+  },
+  {
+    "id": 132,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Received Rs.1746.00 from rahul.sharma@okaxis to A/c XX5319 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1746
+  },
+  {
+    "id": 133,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Acct XX5348 has been credited with Rs.1891.50 on 13/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 1891.5
+  },
+  {
+    "id": 134,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Notice: Rs.2037.00 deposited in bank account ending 5377 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2037
+  },
+  {
+    "id": 135,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Alert: Account ending 5406 received money transfer worth INR 2182.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2182.5,
+    "simulatedSlmOutput": {
+      "amount": 2182.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 136,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Rs 2328.00 credited to a/c XX5435 on 16-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 127500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2328
+  },
+  {
+    "id": 137,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Received Rs.2473.50 from rahul.sharma@okaxis to A/c XX5464 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2473.5
+  },
+  {
+    "id": 138,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Acct XX5493 has been credited with Rs.2619.00 on 18/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2619
+  },
+  {
+    "id": 139,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Notice: Rs.2764.50 deposited in bank account ending 5522 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2764.5
+  },
+  {
+    "id": 140,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Alert: Account ending 5551 received money transfer worth INR 2910.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 2910,
+    "simulatedSlmOutput": {
+      "amount": 2910,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 141,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Rs 3055.50 credited to a/c XX5580 on 21-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 130000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3055.5
+  },
+  {
+    "id": 142,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Received Rs.3201.00 from rahul.sharma@okaxis to A/c XX5609 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3201
+  },
+  {
+    "id": 143,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Acct XX5638 has been credited with Rs.3346.50 on 23/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3346.5
+  },
+  {
+    "id": 144,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Notice: Rs.3492.00 deposited in bank account ending 5667 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3492
+  },
+  {
+    "id": 145,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Alert: Account ending 5696 received money transfer worth INR 3637.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3637.5,
+    "simulatedSlmOutput": {
+      "amount": 3637.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 146,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Rs 3783.00 credited to a/c XX5725 on 26-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 132500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3783
+  },
+  {
+    "id": 147,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Received Rs.3928.50 from rahul.sharma@okaxis to A/c XX5754 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 3928.5
+  },
+  {
+    "id": 148,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Acct XX5783 has been credited with Rs.4074.00 on 28/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4074
+  },
+  {
+    "id": 149,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Notice: Rs.4219.50 deposited in bank account ending 5812 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4219.5
+  },
+  {
+    "id": 150,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Alert: Account ending 5841 received money transfer worth INR 4365.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4365,
+    "simulatedSlmOutput": {
+      "amount": 4365,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 151,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Rs 4510.50 credited to a/c XX5870 on 3-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 135000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4510.5
+  },
+  {
+    "id": 152,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Received Rs.4656.00 from rahul.sharma@okaxis to A/c XX5899 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4656
+  },
+  {
+    "id": 153,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Acct XX5928 has been credited with Rs.4801.50 on 5/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4801.5
+  },
+  {
+    "id": 154,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Notice: Rs.4947.00 deposited in bank account ending 5957 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 4947
+  },
+  {
+    "id": 155,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Alert: Account ending 5986 received money transfer worth INR 5092.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5092.5,
+    "simulatedSlmOutput": {
+      "amount": 5092.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 156,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Rs 5238.00 credited to a/c XX6015 on 8-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 137500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5238
+  },
+  {
+    "id": 157,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Received Rs.5383.50 from rahul.sharma@okaxis to A/c XX6044 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5383.5
+  },
+  {
+    "id": 158,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Acct XX6073 has been credited with Rs.5529.00 on 10/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5529
+  },
+  {
+    "id": 159,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Notice: Rs.5674.50 deposited in bank account ending 6102 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5674.5
+  },
+  {
+    "id": 160,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Alert: Account ending 6131 received money transfer worth INR 5820.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5820,
+    "simulatedSlmOutput": {
+      "amount": 5820,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 161,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Rs 5965.50 credited to a/c XX6160 on 13-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 140000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 5965.5
+  },
+  {
+    "id": 162,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Received Rs.6111.00 from rahul.sharma@okaxis to A/c XX6189 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6111
+  },
+  {
+    "id": 163,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Acct XX6218 has been credited with Rs.6256.50 on 15/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6256.5
+  },
+  {
+    "id": 164,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Notice: Rs.6402.00 deposited in bank account ending 6247 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6402
+  },
+  {
+    "id": 165,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Alert: Account ending 6276 received money transfer worth INR 6547.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6547.5,
+    "simulatedSlmOutput": {
+      "amount": 6547.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 166,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Rs 6693.00 credited to a/c XX6305 on 18-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 142500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6693
+  },
+  {
+    "id": 167,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Received Rs.6838.50 from rahul.sharma@okaxis to A/c XX6334 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6838.5
+  },
+  {
+    "id": 168,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Acct XX6363 has been credited with Rs.6984.00 on 20/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 6984
+  },
+  {
+    "id": 169,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Notice: Rs.7129.50 deposited in bank account ending 6392 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 7129.5
+  },
+  {
+    "id": 170,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Alert: Account ending 6421 received money transfer worth INR 7275.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 7275,
+    "simulatedSlmOutput": {
+      "amount": 7275,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 171,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Rs 7420.50 credited to a/c XX6450 on 23-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 145000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 7420.5
+  },
+  {
+    "id": 172,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Received Rs.7566.00 from rahul.sharma@okaxis to A/c XX6479 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 7566
+  },
+  {
+    "id": 173,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Acct XX6508 has been credited with Rs.7711.50 on 25/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 7711.5
+  },
+  {
+    "id": 174,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Notice: Rs.7857.00 deposited in bank account ending 6537 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 7857
+  },
+  {
+    "id": 175,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Alert: Account ending 6566 received money transfer worth INR 8002.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8002.5,
+    "simulatedSlmOutput": {
+      "amount": 8002.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 176,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Rs 8148.00 credited to a/c XX6595 on 28-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 147500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8148
+  },
+  {
+    "id": 177,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Received Rs.8293.50 from rahul.sharma@okaxis to A/c XX6624 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8293.5
+  },
+  {
+    "id": 178,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Acct XX6653 has been credited with Rs.8439.00 on 2/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8439
+  },
+  {
+    "id": 179,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Notice: Rs.8584.50 deposited in bank account ending 6682 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8584.5
+  },
+  {
+    "id": 180,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Alert: Account ending 6711 received money transfer worth INR 8730.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8730,
+    "simulatedSlmOutput": {
+      "amount": 8730,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 181,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Rs 8875.50 credited to a/c XX6740 on 5-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 150000.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 8875.5
+  },
+  {
+    "id": 182,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Received Rs.9021.00 from rahul.sharma@okaxis to A/c XX6769 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9021
+  },
+  {
+    "id": 183,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Acct XX6798 has been credited with Rs.9166.50 on 7/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9166.5
+  },
+  {
+    "id": 184,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Notice: Rs.9312.00 deposited in bank account ending 6827 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9312
+  },
+  {
+    "id": 185,
+    "category": "NEFT / UPI Formats",
+    "sender": "AMAZONPAY",
+    "body": "Alert: Account ending 6856 received money transfer worth INR 9457.50 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9457.5,
+    "simulatedSlmOutput": {
+      "amount": 9457.5,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 186,
+    "category": "NEFT / UPI Formats",
+    "sender": "BHIMUPI",
+    "body": "Rs 9603.00 credited to a/c XX6885 on 10-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 152500.00",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9603
+  },
+  {
+    "id": 187,
+    "category": "NEFT / UPI Formats",
+    "sender": "PAYTM",
+    "body": "Received Rs.9748.50 from rahul.sharma@okaxis to A/c XX6914 via PhonePe UPI.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9748.5
+  },
+  {
+    "id": 188,
+    "category": "NEFT / UPI Formats",
+    "sender": "GOOGLEPAY",
+    "body": "Acct XX6943 has been credited with Rs.9894.00 on 12/08/2026 by IMPS Ref 8821940.",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 9894
+  },
+  {
+    "id": 189,
+    "category": "NEFT / UPI Formats",
+    "sender": "PHONEPE",
+    "body": "Notice: Rs.10039.50 deposited in bank account ending 6972 from UPI transfer sender: Priya Tech",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 10039.5
+  },
+  {
+    "id": 190,
+    "category": "NEFT / UPI Formats",
+    "sender": "CRED",
+    "body": "Alert: Account ending 7001 received money transfer worth INR 10185.00 from employer payroll via NEFT clearing process",
+    "expectedType": "CREDIT",
+    "expectedAmountRupees": 10185,
+    "simulatedSlmOutput": {
+      "amount": 10185,
+      "type": "CREDIT",
+      "merchant": "Employer Payroll",
+      "category": "UTILITIES",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": 191,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Sent payment of 120.00 INR for Ramesh grocery shop purchase via wallet",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 120,
+    "simulatedSlmOutput": {
+      "amount": 120,
+      "type": "DEBIT",
+      "merchant": "Ramesh Grocery",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 192,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Chai n snacks Rs.45 bhej diye shopkeeper ko via paytm wallet",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 45,
+    "simulatedSlmOutput": {
+      "amount": 45,
+      "type": "DEBIT",
+      "merchant": "Shopkeeper",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 193,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "auto fare payment 85rs deduct ho gaya account se just now",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 85,
+    "simulatedSlmOutput": {
+      "amount": 85,
+      "type": "DEBIT",
+      "merchant": "Auto Fare",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 194,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Paid bill worth 650.00 rupees toward electric supply renewal",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 650,
+    "simulatedSlmOutput": {
+      "amount": 650,
+      "type": "DEBIT",
+      "merchant": "Electric Supply",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 195,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "cable tv monthly fee 350 INR kat gaya account se",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 350,
+    "simulatedSlmOutput": {
+      "amount": 350,
+      "type": "DEBIT",
+      "merchant": "Cable TV",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 196,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Transfer 500 rupees done to friend for dinner split contribution",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 500,
+    "simulatedSlmOutput": {
+      "amount": 500,
+      "type": "DEBIT",
+      "merchant": "Friend",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 197,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Deducted 220.00 INR from wallet balance for medicine order at local chemist",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 220,
+    "simulatedSlmOutput": {
+      "amount": 220,
+      "type": "DEBIT",
+      "merchant": "Local Chemist",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 198,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "You just sent 150 rs to Kirana store owner for daily ration items",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 150,
+    "simulatedSlmOutput": {
+      "amount": 150,
+      "type": "DEBIT",
+      "merchant": "Kirana Store",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 199,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Laundry service charge 280.00 INR deducted from prepaid balance",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 280,
+    "simulatedSlmOutput": {
+      "amount": 280,
+      "type": "DEBIT",
+      "merchant": "Laundry Service",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 200,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Payment of 410.00 INR completed for online movie ticket booking",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 410,
+    "simulatedSlmOutput": {
+      "amount": 410,
+      "type": "DEBIT",
+      "merchant": "Movie Booking",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 201,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "bhej diye 750 rs uncle ko for room rent advance share",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 750,
+    "simulatedSlmOutput": {
+      "amount": 750,
+      "type": "DEBIT",
+      "merchant": "Room Rent",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 202,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "petrol pump billing 300 INR processed via wallet pay",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 300,
+    "simulatedSlmOutput": {
+      "amount": 300,
+      "type": "DEBIT",
+      "merchant": "Petrol Pump",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 203,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Chai stall 35 rs paid through quick QR code scan",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 35,
+    "simulatedSlmOutput": {
+      "amount": 35,
+      "type": "DEBIT",
+      "merchant": "Chai Stall",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 204,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Stationery items purchase 180.00 INR paid to vendor",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 180,
+    "simulatedSlmOutput": {
+      "amount": 180,
+      "type": "DEBIT",
+      "merchant": "Stationery Vendor",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 205,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "wifi recharge 599 INR done for broadband account 99120",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 599,
+    "simulatedSlmOutput": {
+      "amount": 599,
+      "type": "DEBIT",
+      "merchant": "Broadband",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 206,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Paid 140 rs for parking fee near metro station",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 140,
+    "simulatedSlmOutput": {
+      "amount": 140,
+      "type": "DEBIT",
+      "merchant": "Parking Metro",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 207,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "milk delivery monthly charge 920.00 INR sent to dairy seller",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 920,
+    "simulatedSlmOutput": {
+      "amount": 920,
+      "type": "DEBIT",
+      "merchant": "Dairy Seller",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 208,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Taxi ride 450 INR fare debited from linked wallet account",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 450,
+    "simulatedSlmOutput": {
+      "amount": 450,
+      "type": "DEBIT",
+      "merchant": "Taxi Ride",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 209,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "fastfood joint 260.00 INR spent for burger meal deal",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 260,
+    "simulatedSlmOutput": {
+      "amount": 260,
+      "type": "DEBIT",
+      "merchant": "Fastfood Joint",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 210,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Gym monthly membership 1200 INR transfer completed",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 1200,
+    "simulatedSlmOutput": {
+      "amount": 1200,
+      "type": "DEBIT",
+      "merchant": "Gym Membership",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 211,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Deducted 80.00 INR for juice corner payment",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 80,
+    "simulatedSlmOutput": {
+      "amount": 80,
+      "type": "DEBIT",
+      "merchant": "Juice Corner",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 212,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Bookstore bill 340.00 INR paid via online wallet",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 340,
+    "simulatedSlmOutput": {
+      "amount": 340,
+      "type": "DEBIT",
+      "merchant": "Bookstore",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 213,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "vegetables market 210 rs paid to vendor bhai",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 210,
+    "simulatedSlmOutput": {
+      "amount": 210,
+      "type": "DEBIT",
+      "merchant": "Vegetable Vendor",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 214,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "barber salon haircut 150 INR payment successful",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 150,
+    "simulatedSlmOutput": {
+      "amount": 150,
+      "type": "DEBIT",
+      "merchant": "Barber Salon",
+      "category": "OTHER",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": 215,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Your pending balance is 400. Please clear dues soon or service will stop.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 400,
+    "simulatedSlmOutput": {
+      "amount": 0,
+      "type": "DEBIT",
+      "merchant": null,
+      "category": "OTHER",
+      "confidence": 0.25
+    }
+  },
+  {
+    "id": 216,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Reminder: 850 INR bill due tomorrow. Ignore if already settled.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 850,
+    "simulatedSlmOutput": {
+      "amount": 0,
+      "type": "DEBIT",
+      "merchant": null,
+      "category": "OTHER",
+      "confidence": 0.25
+    }
+  },
+  {
+    "id": 217,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Payment alert: suspicious login attempt detected near IP 192.168.1.1",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 0,
+    "simulatedSlmOutput": {
+      "amount": 0,
+      "type": "DEBIT",
+      "merchant": null,
+      "category": "OTHER",
+      "confidence": 0.25
+    }
+  },
+  {
+    "id": 218,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Thank you for visiting Central Mall! Share feedback to win 500 INR coupon.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 500,
+    "simulatedSlmOutput": {
+      "amount": 0,
+      "type": "DEBIT",
+      "merchant": null,
+      "category": "OTHER",
+      "confidence": 0.25
+    }
+  },
+  {
+    "id": 219,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Info: Your account request 9821 for 300 INR credit limit change is pending approval.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 300,
+    "simulatedSlmOutput": {
+      "amount": 0,
+      "type": "DEBIT",
+      "merchant": null,
+      "category": "OTHER",
+      "confidence": 0.25
+    }
+  },
+  {
+    "id": 220,
+    "category": "Unstructured / Novel SMS",
+    "sender": "PAYTM",
+    "body": "Draft order created for 620 INR at Fashion Hub. Complete payment within 10 mins.",
+    "expectedType": "DEBIT",
+    "expectedAmountRupees": 620,
+    "simulatedSlmOutput": {
+      "amount": 0,
+      "type": "DEBIT",
+      "merchant": null,
+      "category": "OTHER",
+      "confidence": 0.25
+    }
+  },
+  {
+    "id": 221,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "VM-HDFCBK",
+    "body": "Your OTP for HDFC NetBanking login is 891204. Do not share with anyone.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 222,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "AD-ICICIB",
+    "body": "Use OTP 449102 to verify your mobile number on BudgetBuddy.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 223,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "SBIINB",
+    "body": "Avail up to 50% discount on credit card upgrade! Apply before 31st August.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 224,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "AXISBK",
+    "body": "Dear customer, your total rewards balance is 450 points. Redeem at bank portal.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 225,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "KOTAKB",
+    "body": "Do not share your UPI PIN with anyone claiming to be a bank official.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 226,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "PNBSMS",
+    "body": "Your ICICI Bank Internet Banking password will expire in 5 days. Update now.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 227,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "BOBTXN",
+    "body": "Get instant personal loan up to 5 Lakhs with zero documentation! Click link.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 228,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "IDFCFB",
+    "body": "Your monthly e-statement for account XX4912 has been sent to your registered email.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 229,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "INDUSB",
+    "body": "Pre-approved home loan offer up to 50 Lakhs available for you. Call 1800-XXX-XXXX.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 230,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "CANBNK",
+    "body": "Update your KYC details by visiting nearest branch to avoid account suspension.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 231,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "YESBNK",
+    "body": "Your OTP for SBI card transaction is 773190 valid for 10 minutes.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 232,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "UNIONB",
+    "body": "Exclusive sale live now! Get 20% cashback on all credit card purchases today.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 233,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "VM-HDFCBK",
+    "body": "Security alert: Password changed successfully for user ID user_pune99.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 234,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "AD-ICICIB",
+    "body": "Your fastag balance is low (Rs 45.00). Recharge now to avoid toll delay.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 235,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "SBIINB",
+    "body": "Welcome to Axis Mobile Banking! Tap here to explore new features.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 236,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "AXISBK",
+    "body": "OTP for beneficiary addition on Kotak Mahindra Bank is 338102.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 237,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "KOTAKB",
+    "body": "Never enter your UPI PIN to receive money in your account. Stay alert!",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 238,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "PNBSMS",
+    "body": "Congratulations! You earned 100 bonus reward points on your last card swipe.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 239,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "BOBTXN",
+    "body": "Scheduled system maintenance tonight from 2 AM to 4 AM. Services may be affected.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 240,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "IDFCFB",
+    "body": "Your bank account statement request 991823 has been processed successfully.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 241,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "INDUSB",
+    "body": "OTP for debit card green pin generation is 901244.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 242,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "CANBNK",
+    "body": "Festive offer: 0% processing fee on car loans till end of month.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 243,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "YESBNK",
+    "body": "Alert: Login from new device detected on your mobile banking app.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 244,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "UNIONB",
+    "body": "Your loan application ref 883192 is under verification.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 245,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "VM-HDFCBK",
+    "body": "Zero balance savings account opening facility now available online.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 246,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "AD-ICICIB",
+    "body": "OTP for netbanking funds transfer is 510923. Valid for 5 mins.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 247,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "SBIINB",
+    "body": "Important notice: Update your Nominee details online in 3 easy steps.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 248,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "AXISBK",
+    "body": "Earn 5X reward points on dining and travel expenses this weekend.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 249,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "KOTAKB",
+    "body": "Your branch IFSC code has been updated to HDFC0001892.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  },
+  {
+    "id": 250,
+    "category": "Non-Transaction Noise (OTPs)",
+    "sender": "PNBSMS",
+    "body": "Thank you for contacting customer support. Rate your experience 1-5.",
+    "expectedType": "NOISE",
+    "expectedAmountRupees": null
+  }
+]

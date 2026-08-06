@@ -177,6 +177,26 @@ adb emu sms send PAYTM "Received Rs 180.00 in your account from Alex via UPI pay
 
 ---
 
+## 🔬 Empirical Evaluation & Independent Benchmark Auditor
+
+BudgetBuddy includes an independent, read-only benchmark auditor script to evaluate the deterministic regex engine (Engine A) and SLM fallback against synthetic SMS transaction datasets without modifying ground truth labels.
+
+### 1. Dataset Generation
+Generate 250 diverse synthetic SMS samples (spanning standard debits, NEFT/UPI, unstructured Hinglish/typos, and OTP noise):
+```bash
+node scripts/generateRobustDataset.js
+```
+
+### 2. Run Independent Benchmark Audit
+Execute the read-only auditor suite using Jest:
+```bash
+npm run audit
+```
+
+The auditor script pins the dataset via **SHA-256 hash**, checks Engine A accuracy against shipping regex patterns (`src/engines/regexParser.ts`), recomputes Wilson 95% confidence intervals from first principles, flags any parsing anomalies, and outputs a detailed per-sample audit log to `audit_output/per_sample_audit.json`.
+
+---
+
 ## 🔒 Security & Privacy Enforcement
 
 BudgetBuddy enforces privacy at both the application and network layer:

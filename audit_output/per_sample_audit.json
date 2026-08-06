@@ -1,0 +1,4110 @@
+{
+  "datasetPath": "C:\\Users\\rohan\\Projects\\BudgetBuddy\\scripts\\smsBenchmarkDataset.json",
+  "datasetSha256": "e7daeb0c8145a85eb29d943a98c246857db702c10446ad2d8de1ed8671e5efdf",
+  "generatedAt": "2026-08-06T06:38:22.934Z",
+  "totalSamples": 250,
+  "overall": {
+    "n": 250,
+    "correct": 225,
+    "unverified": 20,
+    "wilsonCI": [
+      85.65473757413066,
+      93.13455464589946
+    ]
+  },
+  "anomalies": [],
+  "results": [
+    {
+      "id": 1,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX1000 was debited by Rs.37.75 on 01-Aug-26 for UPI txn to Swiggy. Avl Bal: Rs.15000.00",
+      "engineAResult": {
+        "amount": 3775,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1000",
+        "balance": 1500000,
+        "transactionDate": "2026-08-06T06:38:22.879Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 2,
+      "category": "Standard Debits & Cards",
+      "body": "INR 75.50 spent on AD-ICICIB Card XX1037 at ZOMATO on 2026-08-02. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 7550,
+        "type": "DEBIT",
+        "merchantOrVpa": "ZOMATO",
+        "accountTail": "1037",
+        "balance": null,
+        "transactionDate": "2026-08-02T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 3,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX1074 debited with Rs 113.25 on 03-Aug-26; Merchant: Amazon India",
+      "engineAResult": {
+        "amount": 11325,
+        "type": "DEBIT",
+        "merchantOrVpa": "Amazon India",
+        "accountTail": "1074",
+        "balance": null,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 4,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.151.00 to flipkart@upi from a/c XX1111",
+      "engineAResult": {
+        "amount": 15100,
+        "type": "DEBIT",
+        "merchantOrVpa": "flipkart@upi",
+        "accountTail": "1111",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.881Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 5,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.188.75 debited from a/c XX1148 on 05-Aug-26 info: UPI/Uber India/Ref901283.",
+      "engineAResult": {
+        "amount": 18875,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1148",
+        "balance": null,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 6,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.226.50 from a/c XX1185 at HDFC ATM Pune branch on 06-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 7,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX1222 was debited by Rs.264.25 on 07-Aug-26 for UPI txn to Zepto Quick. Avl Bal: Rs.15600.00",
+      "engineAResult": {
+        "amount": 26425,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1222",
+        "balance": 1560000,
+        "transactionDate": "2026-08-06T06:38:22.882Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 8,
+      "category": "Standard Debits & Cards",
+      "body": "INR 302.00 spent on IDFCFB Card XX1259 at BLINKIT COMMERCE on 2026-08-08. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 30200,
+        "type": "DEBIT",
+        "merchantOrVpa": "BLINKIT COMMERCE",
+        "accountTail": "1259",
+        "balance": null,
+        "transactionDate": "2026-08-08T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 9,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX1296 debited with Rs 339.75 on 09-Aug-26; Merchant: Apollo Pharmacy",
+      "engineAResult": {
+        "amount": 33975,
+        "type": "DEBIT",
+        "merchantOrVpa": "Apollo Pharmacy",
+        "accountTail": "1296",
+        "balance": null,
+        "transactionDate": "2026-08-09T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 10,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.377.50 to netflixservices@upi from a/c XX1333",
+      "engineAResult": {
+        "amount": 37750,
+        "type": "DEBIT",
+        "merchantOrVpa": "netflixservices@upi",
+        "accountTail": "1333",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.883Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 11,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.415.25 debited from a/c XX1370 on 11-Aug-26 info: UPI/BookMyShow/Ref901283.",
+      "engineAResult": {
+        "amount": 41525,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1370",
+        "balance": null,
+        "transactionDate": "2026-08-11T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 12,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.453.00 from a/c XX1407 at HDFC ATM Pune branch on 12-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 13,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX1444 was debited by Rs.490.75 on 13-Aug-26 for UPI txn to RelDigital. Avl Bal: Rs.16200.00",
+      "engineAResult": {
+        "amount": 49075,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1444",
+        "balance": 1620000,
+        "transactionDate": "2026-08-13T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 14,
+      "category": "Standard Debits & Cards",
+      "body": "INR 528.50 spent on AD-ICICIB Card XX1481 at DECATHLON on 2026-08-14. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 52850,
+        "type": "DEBIT",
+        "merchantOrVpa": "DECATHLON",
+        "accountTail": "1481",
+        "balance": null,
+        "transactionDate": "2026-08-14T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 15,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX1518 debited with Rs 566.25 on 15-Aug-26; Merchant: DMart Store",
+      "engineAResult": {
+        "amount": 56625,
+        "type": "DEBIT",
+        "merchantOrVpa": "DMart Store",
+        "accountTail": "1518",
+        "balance": null,
+        "transactionDate": "2026-08-15T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 16,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.604.00 to starbuckscoffee@upi from a/c XX1555",
+      "engineAResult": {
+        "amount": 60400,
+        "type": "DEBIT",
+        "merchantOrVpa": "starbuckscoffee@upi",
+        "accountTail": "1555",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.883Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 17,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.641.75 debited from a/c XX1592 on 17-Aug-26 info: UPI/Swiggy/Ref901283.",
+      "engineAResult": {
+        "amount": 64175,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1592",
+        "balance": null,
+        "transactionDate": "2026-08-17T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 18,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.679.50 from a/c XX1629 at HDFC ATM Pune branch on 18-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 19,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX1666 was debited by Rs.717.25 on 19-Aug-26 for UPI txn to Amazon India. Avl Bal: Rs.16800.00",
+      "engineAResult": {
+        "amount": 71725,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1666",
+        "balance": 1680000,
+        "transactionDate": "2026-08-19T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 20,
+      "category": "Standard Debits & Cards",
+      "body": "INR 755.00 spent on IDFCFB Card XX1703 at FLIPKART on 2026-08-20. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 75500,
+        "type": "DEBIT",
+        "merchantOrVpa": "FLIPKART",
+        "accountTail": "1703",
+        "balance": null,
+        "transactionDate": "2026-08-20T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 21,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX1740 debited with Rs 792.75 on 21-Aug-26; Merchant: Uber India",
+      "engineAResult": {
+        "amount": 79275,
+        "type": "DEBIT",
+        "merchantOrVpa": "Uber India",
+        "accountTail": "1740",
+        "balance": null,
+        "transactionDate": "2026-08-21T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 22,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.830.50 to olacabs@upi from a/c XX1777",
+      "engineAResult": {
+        "amount": 83050,
+        "type": "DEBIT",
+        "merchantOrVpa": "olacabs@upi",
+        "accountTail": "1777",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 23,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.868.25 debited from a/c XX1814 on 23-Aug-26 info: UPI/Zepto Quick/Ref901283.",
+      "engineAResult": {
+        "amount": 86825,
+        "type": "DEBIT",
+        "merchantOrVpa": "Quick",
+        "accountTail": "1814",
+        "balance": null,
+        "transactionDate": "2026-08-23T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 24,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.906.00 from a/c XX1851 at HDFC ATM Pune branch on 24-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 25,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX1888 was debited by Rs.943.75 on 25-Aug-26 for UPI txn to Apollo Pharmacy. Avl Bal: Rs.17400.00",
+      "engineAResult": {
+        "amount": 94375,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "1888",
+        "balance": 1740000,
+        "transactionDate": "2026-08-25T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 26,
+      "category": "Standard Debits & Cards",
+      "body": "INR 981.50 spent on AD-ICICIB Card XX1925 at NETFLIX SERVICES on 2026-08-26. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 98150,
+        "type": "DEBIT",
+        "merchantOrVpa": "NETFLIX SERVICES",
+        "accountTail": "1925",
+        "balance": null,
+        "transactionDate": "2026-08-26T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 27,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX1962 debited with Rs 1019.25 on 27-Aug-26; Merchant: BookMyShow",
+      "engineAResult": {
+        "amount": 101925,
+        "type": "DEBIT",
+        "merchantOrVpa": "BookMyShow",
+        "accountTail": "1962",
+        "balance": null,
+        "transactionDate": "2026-08-27T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 28,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.1057.00 to bigbasketgrocery@upi from a/c XX1999",
+      "engineAResult": {
+        "amount": 105700,
+        "type": "DEBIT",
+        "merchantOrVpa": "bigbasketgrocery@upi",
+        "accountTail": "1999",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 29,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.1094.75 debited from a/c XX2036 on 01-Aug-26 info: UPI/RelDigital/Ref901283.",
+      "engineAResult": {
+        "amount": 109475,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2036",
+        "balance": null,
+        "transactionDate": "2026-08-01T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 30,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.1132.50 from a/c XX2073 at HDFC ATM Pune branch on 02-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 31,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX2110 was debited by Rs.1170.25 on 03-Aug-26 for UPI txn to DMart Store. Avl Bal: Rs.18000.00",
+      "engineAResult": {
+        "amount": 117025,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2110",
+        "balance": 1800000,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 32,
+      "category": "Standard Debits & Cards",
+      "body": "INR 1208.00 spent on IDFCFB Card XX2147 at STARBUCKS COFFEE on 2026-08-04. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 120800,
+        "type": "DEBIT",
+        "merchantOrVpa": "STARBUCKS COFFEE",
+        "accountTail": "2147",
+        "balance": null,
+        "transactionDate": "2026-08-04T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 33,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX2184 debited with Rs 1245.75 on 05-Aug-26; Merchant: Swiggy",
+      "engineAResult": {
+        "amount": 124575,
+        "type": "DEBIT",
+        "merchantOrVpa": "Swiggy",
+        "accountTail": "2184",
+        "balance": null,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 34,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.1283.50 to zomato@upi from a/c XX2221",
+      "engineAResult": {
+        "amount": 128350,
+        "type": "DEBIT",
+        "merchantOrVpa": "zomato@upi",
+        "accountTail": "2221",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 35,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.1321.25 debited from a/c XX2258 on 07-Aug-26 info: UPI/Amazon India/Ref901283.",
+      "engineAResult": {
+        "amount": 132125,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2258",
+        "balance": null,
+        "transactionDate": "2026-08-07T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 36,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.1359.00 from a/c XX2295 at HDFC ATM Pune branch on 08-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 37,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX2332 was debited by Rs.1396.75 on 09-Aug-26 for UPI txn to Uber India. Avl Bal: Rs.18600.00",
+      "engineAResult": {
+        "amount": 139675,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2332",
+        "balance": 1860000,
+        "transactionDate": "2026-08-09T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 38,
+      "category": "Standard Debits & Cards",
+      "body": "INR 1434.50 spent on AD-ICICIB Card XX2369 at OLA CABS on 2026-08-10. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 143450,
+        "type": "DEBIT",
+        "merchantOrVpa": "OLA CABS",
+        "accountTail": "2369",
+        "balance": null,
+        "transactionDate": "2026-08-10T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 39,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX2406 debited with Rs 1472.25 on 11-Aug-26; Merchant: Zepto Quick",
+      "engineAResult": {
+        "amount": 147225,
+        "type": "DEBIT",
+        "merchantOrVpa": "Zepto Quick",
+        "accountTail": "2406",
+        "balance": null,
+        "transactionDate": "2026-08-11T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 40,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.1510.00 to blinkitcommerce@upi from a/c XX2443",
+      "engineAResult": {
+        "amount": 151000,
+        "type": "DEBIT",
+        "merchantOrVpa": "blinkitcommerce@upi",
+        "accountTail": "2443",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 41,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.1547.75 debited from a/c XX2480 on 13-Aug-26 info: UPI/Apollo Pharmacy/Ref901283.",
+      "engineAResult": {
+        "amount": 154775,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2480",
+        "balance": null,
+        "transactionDate": "2026-08-13T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 42,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.1585.50 from a/c XX2517 at HDFC ATM Pune branch on 14-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 43,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX2554 was debited by Rs.1623.25 on 15-Aug-26 for UPI txn to BookMyShow. Avl Bal: Rs.19200.00",
+      "engineAResult": {
+        "amount": 162325,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2554",
+        "balance": 1920000,
+        "transactionDate": "2026-08-15T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 44,
+      "category": "Standard Debits & Cards",
+      "body": "INR 1661.00 spent on IDFCFB Card XX2591 at BIGBASKET GROCERY on 2026-08-16. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 166100,
+        "type": "DEBIT",
+        "merchantOrVpa": "BIGBASKET GROCERY",
+        "accountTail": "2591",
+        "balance": null,
+        "transactionDate": "2026-08-16T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 45,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX2628 debited with Rs 1698.75 on 17-Aug-26; Merchant: RelDigital",
+      "engineAResult": {
+        "amount": 169875,
+        "type": "DEBIT",
+        "merchantOrVpa": "RelDigital",
+        "accountTail": "2628",
+        "balance": null,
+        "transactionDate": "2026-08-17T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 46,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.1736.50 to decathlon@upi from a/c XX2665",
+      "engineAResult": {
+        "amount": 173650,
+        "type": "DEBIT",
+        "merchantOrVpa": "decathlon@upi",
+        "accountTail": "2665",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 47,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.1774.25 debited from a/c XX2702 on 19-Aug-26 info: UPI/DMart Store/Ref901283.",
+      "engineAResult": {
+        "amount": 177425,
+        "type": "DEBIT",
+        "merchantOrVpa": "re",
+        "accountTail": "2702",
+        "balance": null,
+        "transactionDate": "2026-08-19T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 48,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.1812.00 from a/c XX2739 at HDFC ATM Pune branch on 20-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 49,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX2776 was debited by Rs.1849.75 on 21-Aug-26 for UPI txn to Swiggy. Avl Bal: Rs.19800.00",
+      "engineAResult": {
+        "amount": 184975,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2776",
+        "balance": 1980000,
+        "transactionDate": "2026-08-21T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 50,
+      "category": "Standard Debits & Cards",
+      "body": "INR 1887.50 spent on AD-ICICIB Card XX2813 at ZOMATO on 2026-08-22. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 188750,
+        "type": "DEBIT",
+        "merchantOrVpa": "ZOMATO",
+        "accountTail": "2813",
+        "balance": null,
+        "transactionDate": "2026-08-22T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 51,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX2850 debited with Rs 1925.25 on 23-Aug-26; Merchant: Amazon India",
+      "engineAResult": {
+        "amount": 192525,
+        "type": "DEBIT",
+        "merchantOrVpa": "Amazon India",
+        "accountTail": "2850",
+        "balance": null,
+        "transactionDate": "2026-08-23T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 52,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.1963.00 to flipkart@upi from a/c XX2887",
+      "engineAResult": {
+        "amount": 196300,
+        "type": "DEBIT",
+        "merchantOrVpa": "flipkart@upi",
+        "accountTail": "2887",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 53,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.2000.75 debited from a/c XX2924 on 25-Aug-26 info: UPI/Uber India/Ref901283.",
+      "engineAResult": {
+        "amount": 200075,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2924",
+        "balance": null,
+        "transactionDate": "2026-08-25T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 54,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.2038.50 from a/c XX2961 at HDFC ATM Pune branch on 26-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 55,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX2998 was debited by Rs.2076.25 on 27-Aug-26 for UPI txn to Zepto Quick. Avl Bal: Rs.20400.00",
+      "engineAResult": {
+        "amount": 207625,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "2998",
+        "balance": 2040000,
+        "transactionDate": "2026-08-27T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 56,
+      "category": "Standard Debits & Cards",
+      "body": "INR 2114.00 spent on IDFCFB Card XX3035 at BLINKIT COMMERCE on 2026-08-28. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 211400,
+        "type": "DEBIT",
+        "merchantOrVpa": "BLINKIT COMMERCE",
+        "accountTail": "3035",
+        "balance": null,
+        "transactionDate": "2026-08-28T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 57,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX3072 debited with Rs 2151.75 on 01-Aug-26; Merchant: Apollo Pharmacy",
+      "engineAResult": {
+        "amount": 215175,
+        "type": "DEBIT",
+        "merchantOrVpa": "Apollo Pharmacy",
+        "accountTail": "3072",
+        "balance": null,
+        "transactionDate": "2026-08-01T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 58,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.2189.50 to netflixservices@upi from a/c XX3109",
+      "engineAResult": {
+        "amount": 218950,
+        "type": "DEBIT",
+        "merchantOrVpa": "netflixservices@upi",
+        "accountTail": "3109",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 59,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.2227.25 debited from a/c XX3146 on 03-Aug-26 info: UPI/BookMyShow/Ref901283.",
+      "engineAResult": {
+        "amount": 222725,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3146",
+        "balance": null,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 60,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.2265.00 from a/c XX3183 at HDFC ATM Pune branch on 04-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 61,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX3220 was debited by Rs.2302.75 on 05-Aug-26 for UPI txn to RelDigital. Avl Bal: Rs.21000.00",
+      "engineAResult": {
+        "amount": 230275,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3220",
+        "balance": 2100000,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 62,
+      "category": "Standard Debits & Cards",
+      "body": "INR 2340.50 spent on AD-ICICIB Card XX3257 at DECATHLON on 2026-08-06. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 234050,
+        "type": "DEBIT",
+        "merchantOrVpa": "DECATHLON",
+        "accountTail": "3257",
+        "balance": null,
+        "transactionDate": "2026-08-06T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 63,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX3294 debited with Rs 2378.25 on 07-Aug-26; Merchant: DMart Store",
+      "engineAResult": {
+        "amount": 237825,
+        "type": "DEBIT",
+        "merchantOrVpa": "DMart Store",
+        "accountTail": "3294",
+        "balance": null,
+        "transactionDate": "2026-08-07T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 64,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.2416.00 to starbuckscoffee@upi from a/c XX3331",
+      "engineAResult": {
+        "amount": 241600,
+        "type": "DEBIT",
+        "merchantOrVpa": "starbuckscoffee@upi",
+        "accountTail": "3331",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 65,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.2453.75 debited from a/c XX3368 on 09-Aug-26 info: UPI/Swiggy/Ref901283.",
+      "engineAResult": {
+        "amount": 245375,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3368",
+        "balance": null,
+        "transactionDate": "2026-08-09T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 66,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.2491.50 from a/c XX3405 at HDFC ATM Pune branch on 10-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 67,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX3442 was debited by Rs.2529.25 on 11-Aug-26 for UPI txn to Amazon India. Avl Bal: Rs.21600.00",
+      "engineAResult": {
+        "amount": 252925,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3442",
+        "balance": 2160000,
+        "transactionDate": "2026-08-11T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 68,
+      "category": "Standard Debits & Cards",
+      "body": "INR 2567.00 spent on IDFCFB Card XX3479 at FLIPKART on 2026-08-12. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 256700,
+        "type": "DEBIT",
+        "merchantOrVpa": "FLIPKART",
+        "accountTail": "3479",
+        "balance": null,
+        "transactionDate": "2026-08-12T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 69,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX3516 debited with Rs 2604.75 on 13-Aug-26; Merchant: Uber India",
+      "engineAResult": {
+        "amount": 260475,
+        "type": "DEBIT",
+        "merchantOrVpa": "Uber India",
+        "accountTail": "3516",
+        "balance": null,
+        "transactionDate": "2026-08-13T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 70,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.2642.50 to olacabs@upi from a/c XX3553",
+      "engineAResult": {
+        "amount": 264250,
+        "type": "DEBIT",
+        "merchantOrVpa": "olacabs@upi",
+        "accountTail": "3553",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 71,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.2680.25 debited from a/c XX3590 on 15-Aug-26 info: UPI/Zepto Quick/Ref901283.",
+      "engineAResult": {
+        "amount": 268025,
+        "type": "DEBIT",
+        "merchantOrVpa": "Quick",
+        "accountTail": "3590",
+        "balance": null,
+        "transactionDate": "2026-08-15T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 72,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.2718.00 from a/c XX3627 at HDFC ATM Pune branch on 16-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 73,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX3664 was debited by Rs.2755.75 on 17-Aug-26 for UPI txn to Apollo Pharmacy. Avl Bal: Rs.22200.00",
+      "engineAResult": {
+        "amount": 275575,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3664",
+        "balance": 2220000,
+        "transactionDate": "2026-08-17T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 74,
+      "category": "Standard Debits & Cards",
+      "body": "INR 2793.50 spent on AD-ICICIB Card XX3701 at NETFLIX SERVICES on 2026-08-18. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 279350,
+        "type": "DEBIT",
+        "merchantOrVpa": "NETFLIX SERVICES",
+        "accountTail": "3701",
+        "balance": null,
+        "transactionDate": "2026-08-18T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 75,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX3738 debited with Rs 2831.25 on 19-Aug-26; Merchant: BookMyShow",
+      "engineAResult": {
+        "amount": 283125,
+        "type": "DEBIT",
+        "merchantOrVpa": "BookMyShow",
+        "accountTail": "3738",
+        "balance": null,
+        "transactionDate": "2026-08-19T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 76,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.2869.00 to bigbasketgrocery@upi from a/c XX3775",
+      "engineAResult": {
+        "amount": 286900,
+        "type": "DEBIT",
+        "merchantOrVpa": "bigbasketgrocery@upi",
+        "accountTail": "3775",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 77,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.2906.75 debited from a/c XX3812 on 21-Aug-26 info: UPI/RelDigital/Ref901283.",
+      "engineAResult": {
+        "amount": 290675,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3812",
+        "balance": null,
+        "transactionDate": "2026-08-21T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 78,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.2944.50 from a/c XX3849 at HDFC ATM Pune branch on 22-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 79,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX3886 was debited by Rs.2982.25 on 23-Aug-26 for UPI txn to DMart Store. Avl Bal: Rs.22800.00",
+      "engineAResult": {
+        "amount": 298225,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "3886",
+        "balance": 2280000,
+        "transactionDate": "2026-08-23T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 80,
+      "category": "Standard Debits & Cards",
+      "body": "INR 3020.00 spent on IDFCFB Card XX3923 at STARBUCKS COFFEE on 2026-08-24. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 302000,
+        "type": "DEBIT",
+        "merchantOrVpa": "STARBUCKS COFFEE",
+        "accountTail": "3923",
+        "balance": null,
+        "transactionDate": "2026-08-24T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 81,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX3960 debited with Rs 3057.75 on 25-Aug-26; Merchant: Swiggy",
+      "engineAResult": {
+        "amount": 305775,
+        "type": "DEBIT",
+        "merchantOrVpa": "Swiggy",
+        "accountTail": "3960",
+        "balance": null,
+        "transactionDate": "2026-08-25T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 82,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.3095.50 to zomato@upi from a/c XX3997",
+      "engineAResult": {
+        "amount": 309550,
+        "type": "DEBIT",
+        "merchantOrVpa": "zomato@upi",
+        "accountTail": "3997",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.884Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 83,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.3133.25 debited from a/c XX4034 on 27-Aug-26 info: UPI/Amazon India/Ref901283.",
+      "engineAResult": {
+        "amount": 313325,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4034",
+        "balance": null,
+        "transactionDate": "2026-08-27T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 84,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.3171.00 from a/c XX4071 at HDFC ATM Pune branch on 28-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 85,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX4108 was debited by Rs.3208.75 on 01-Aug-26 for UPI txn to Uber India. Avl Bal: Rs.23400.00",
+      "engineAResult": {
+        "amount": 320875,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4108",
+        "balance": 2340000,
+        "transactionDate": "2026-08-01T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 86,
+      "category": "Standard Debits & Cards",
+      "body": "INR 3246.50 spent on AD-ICICIB Card XX4145 at OLA CABS on 2026-08-02. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 324650,
+        "type": "DEBIT",
+        "merchantOrVpa": "OLA CABS",
+        "accountTail": "4145",
+        "balance": null,
+        "transactionDate": "2026-08-02T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 87,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX4182 debited with Rs 3284.25 on 03-Aug-26; Merchant: Zepto Quick",
+      "engineAResult": {
+        "amount": 328425,
+        "type": "DEBIT",
+        "merchantOrVpa": "Zepto Quick",
+        "accountTail": "4182",
+        "balance": null,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 88,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.3322.00 to blinkitcommerce@upi from a/c XX4219",
+      "engineAResult": {
+        "amount": 332200,
+        "type": "DEBIT",
+        "merchantOrVpa": "blinkitcommerce@upi",
+        "accountTail": "4219",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 89,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.3359.75 debited from a/c XX4256 on 05-Aug-26 info: UPI/Apollo Pharmacy/Ref901283.",
+      "engineAResult": {
+        "amount": 335975,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4256",
+        "balance": null,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 90,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.3397.50 from a/c XX4293 at HDFC ATM Pune branch on 06-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 91,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX4330 was debited by Rs.3435.25 on 07-Aug-26 for UPI txn to BookMyShow. Avl Bal: Rs.24000.00",
+      "engineAResult": {
+        "amount": 343525,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4330",
+        "balance": 2400000,
+        "transactionDate": "2026-08-07T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 92,
+      "category": "Standard Debits & Cards",
+      "body": "INR 3473.00 spent on IDFCFB Card XX4367 at BIGBASKET GROCERY on 2026-08-08. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 347300,
+        "type": "DEBIT",
+        "merchantOrVpa": "BIGBASKET GROCERY",
+        "accountTail": "4367",
+        "balance": null,
+        "transactionDate": "2026-08-08T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 93,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX4404 debited with Rs 3510.75 on 09-Aug-26; Merchant: RelDigital",
+      "engineAResult": {
+        "amount": 351075,
+        "type": "DEBIT",
+        "merchantOrVpa": "RelDigital",
+        "accountTail": "4404",
+        "balance": null,
+        "transactionDate": "2026-08-09T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 94,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.3548.50 to decathlon@upi from a/c XX4441",
+      "engineAResult": {
+        "amount": 354850,
+        "type": "DEBIT",
+        "merchantOrVpa": "decathlon@upi",
+        "accountTail": "4441",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 95,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.3586.25 debited from a/c XX4478 on 11-Aug-26 info: UPI/DMart Store/Ref901283.",
+      "engineAResult": {
+        "amount": 358625,
+        "type": "DEBIT",
+        "merchantOrVpa": "re",
+        "accountTail": "4478",
+        "balance": null,
+        "transactionDate": "2026-08-11T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 96,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.3624.00 from a/c XX4515 at HDFC ATM Pune branch on 12-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 97,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX4552 was debited by Rs.3661.75 on 13-Aug-26 for UPI txn to Swiggy. Avl Bal: Rs.24600.00",
+      "engineAResult": {
+        "amount": 366175,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4552",
+        "balance": 2460000,
+        "transactionDate": "2026-08-13T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 98,
+      "category": "Standard Debits & Cards",
+      "body": "INR 3699.50 spent on AD-ICICIB Card XX4589 at ZOMATO on 2026-08-14. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 369950,
+        "type": "DEBIT",
+        "merchantOrVpa": "ZOMATO",
+        "accountTail": "4589",
+        "balance": null,
+        "transactionDate": "2026-08-14T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 99,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX4626 debited with Rs 3737.25 on 15-Aug-26; Merchant: Amazon India",
+      "engineAResult": {
+        "amount": 373725,
+        "type": "DEBIT",
+        "merchantOrVpa": "Amazon India",
+        "accountTail": "4626",
+        "balance": null,
+        "transactionDate": "2026-08-15T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 100,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.3775.00 to flipkart@upi from a/c XX4663",
+      "engineAResult": {
+        "amount": 377500,
+        "type": "DEBIT",
+        "merchantOrVpa": "flipkart@upi",
+        "accountTail": "4663",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 101,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.3812.75 debited from a/c XX4700 on 17-Aug-26 info: UPI/Uber India/Ref901283.",
+      "engineAResult": {
+        "amount": 381275,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4700",
+        "balance": null,
+        "transactionDate": "2026-08-17T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 102,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.3850.50 from a/c XX4737 at HDFC ATM Pune branch on 18-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 103,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX4774 was debited by Rs.3888.25 on 19-Aug-26 for UPI txn to Zepto Quick. Avl Bal: Rs.25200.00",
+      "engineAResult": {
+        "amount": 388825,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4774",
+        "balance": 2520000,
+        "transactionDate": "2026-08-19T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 104,
+      "category": "Standard Debits & Cards",
+      "body": "INR 3926.00 spent on IDFCFB Card XX4811 at BLINKIT COMMERCE on 2026-08-20. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 392600,
+        "type": "DEBIT",
+        "merchantOrVpa": "BLINKIT COMMERCE",
+        "accountTail": "4811",
+        "balance": null,
+        "transactionDate": "2026-08-20T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 105,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX4848 debited with Rs 3963.75 on 21-Aug-26; Merchant: Apollo Pharmacy",
+      "engineAResult": {
+        "amount": 396375,
+        "type": "DEBIT",
+        "merchantOrVpa": "Apollo Pharmacy",
+        "accountTail": "4848",
+        "balance": null,
+        "transactionDate": "2026-08-21T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 106,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.4001.50 to netflixservices@upi from a/c XX4885",
+      "engineAResult": {
+        "amount": 400150,
+        "type": "DEBIT",
+        "merchantOrVpa": "netflixservices@upi",
+        "accountTail": "4885",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 107,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.4039.25 debited from a/c XX4922 on 23-Aug-26 info: UPI/BookMyShow/Ref901283.",
+      "engineAResult": {
+        "amount": 403925,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4922",
+        "balance": null,
+        "transactionDate": "2026-08-23T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 108,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.4077.00 from a/c XX4959 at HDFC ATM Pune branch on 24-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 109,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX4996 was debited by Rs.4114.75 on 25-Aug-26 for UPI txn to RelDigital. Avl Bal: Rs.25800.00",
+      "engineAResult": {
+        "amount": 411475,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "4996",
+        "balance": 2580000,
+        "transactionDate": "2026-08-25T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 110,
+      "category": "Standard Debits & Cards",
+      "body": "INR 4152.50 spent on AD-ICICIB Card XX5033 at DECATHLON on 2026-08-26. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 415250,
+        "type": "DEBIT",
+        "merchantOrVpa": "DECATHLON",
+        "accountTail": "5033",
+        "balance": null,
+        "transactionDate": "2026-08-26T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 111,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX5070 debited with Rs 4190.25 on 27-Aug-26; Merchant: DMart Store",
+      "engineAResult": {
+        "amount": 419025,
+        "type": "DEBIT",
+        "merchantOrVpa": "DMart Store",
+        "accountTail": "5070",
+        "balance": null,
+        "transactionDate": "2026-08-27T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 112,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.4228.00 to starbuckscoffee@upi from a/c XX5107",
+      "engineAResult": {
+        "amount": 422800,
+        "type": "DEBIT",
+        "merchantOrVpa": "starbuckscoffee@upi",
+        "accountTail": "5107",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 113,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.4265.75 debited from a/c XX5144 on 01-Aug-26 info: UPI/Swiggy/Ref901283.",
+      "engineAResult": {
+        "amount": 426575,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "5144",
+        "balance": null,
+        "transactionDate": "2026-08-01T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 114,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.4303.50 from a/c XX5181 at HDFC ATM Pune branch on 02-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 115,
+      "category": "Standard Debits & Cards",
+      "body": "Your a/c XX5218 was debited by Rs.4341.25 on 03-Aug-26 for UPI txn to Amazon India. Avl Bal: Rs.26400.00",
+      "engineAResult": {
+        "amount": 434125,
+        "type": "DEBIT",
+        "merchantOrVpa": null,
+        "accountTail": "5218",
+        "balance": 2640000,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 116,
+      "category": "Standard Debits & Cards",
+      "body": "INR 4379.00 spent on IDFCFB Card XX5255 at FLIPKART on 2026-08-04. Avl Limit: Rs.50000.00",
+      "engineAResult": {
+        "amount": 437900,
+        "type": "DEBIT",
+        "merchantOrVpa": "FLIPKART",
+        "accountTail": "5255",
+        "balance": null,
+        "transactionDate": "2026-08-04T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 117,
+      "category": "Standard Debits & Cards",
+      "body": "Acct XX5292 debited with Rs 4416.75 on 05-Aug-26; Merchant: Uber India",
+      "engineAResult": {
+        "amount": 441675,
+        "type": "DEBIT",
+        "merchantOrVpa": "Uber India",
+        "accountTail": "5292",
+        "balance": null,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 118,
+      "category": "Standard Debits & Cards",
+      "body": "Paid Rs.4454.50 to olacabs@upi from a/c XX5329",
+      "engineAResult": {
+        "amount": 445450,
+        "type": "DEBIT",
+        "merchantOrVpa": "olacabs@upi",
+        "accountTail": "5329",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 119,
+      "category": "Standard Debits & Cards",
+      "body": "Dear Customer, Rs.4492.25 debited from a/c XX5366 on 07-Aug-26 info: UPI/Zepto Quick/Ref901283.",
+      "engineAResult": {
+        "amount": 449225,
+        "type": "DEBIT",
+        "merchantOrVpa": "Quick",
+        "accountTail": "5366",
+        "balance": null,
+        "transactionDate": "2026-08-07T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 120,
+      "category": "Standard Debits & Cards",
+      "body": "ATM cash withdrawal of Rs.4530.00 from a/c XX5403 at HDFC ATM Pune branch on 08-Aug-26.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": "UNVERIFIED",
+      "anomaly": null
+    },
+    {
+      "id": 121,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 145.50 credited to a/c XX5000 on 1-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 120000.00",
+      "engineAResult": {
+        "amount": 14550,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 120000.00",
+        "accountTail": "5000",
+        "balance": 12000000,
+        "transactionDate": "2026-08-01T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 122,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.291.00 from rahul.sharma@okaxis to A/c XX5029 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 29100,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5029",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 123,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5058 has been credited with Rs.436.50 on 3/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 43650,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5058",
+        "balance": null,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 124,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.582.00 deposited in bank account ending 5087 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 58200,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5087",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 125,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5116 received money transfer worth INR 727.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 126,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 873.00 credited to a/c XX5145 on 6-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 122500.00",
+      "engineAResult": {
+        "amount": 87300,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 122500.00",
+        "accountTail": "5145",
+        "balance": 12250000,
+        "transactionDate": "2026-08-06T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 127,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.1018.50 from rahul.sharma@okaxis to A/c XX5174 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 101850,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5174",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 128,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5203 has been credited with Rs.1164.00 on 8/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 116400,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5203",
+        "balance": null,
+        "transactionDate": "2026-08-08T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 129,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.1309.50 deposited in bank account ending 5232 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 130950,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5232",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 130,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5261 received money transfer worth INR 1455.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 131,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 1600.50 credited to a/c XX5290 on 11-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 125000.00",
+      "engineAResult": {
+        "amount": 160050,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 125000.00",
+        "accountTail": "5290",
+        "balance": 12500000,
+        "transactionDate": "2026-08-11T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 132,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.1746.00 from rahul.sharma@okaxis to A/c XX5319 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 174600,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5319",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 133,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5348 has been credited with Rs.1891.50 on 13/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 189150,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5348",
+        "balance": null,
+        "transactionDate": "2026-08-13T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 134,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.2037.00 deposited in bank account ending 5377 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 203700,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5377",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 135,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5406 received money transfer worth INR 2182.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 136,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 2328.00 credited to a/c XX5435 on 16-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 127500.00",
+      "engineAResult": {
+        "amount": 232800,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 127500.00",
+        "accountTail": "5435",
+        "balance": 12750000,
+        "transactionDate": "2026-08-16T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 137,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.2473.50 from rahul.sharma@okaxis to A/c XX5464 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 247350,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5464",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.885Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 138,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5493 has been credited with Rs.2619.00 on 18/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 261900,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5493",
+        "balance": null,
+        "transactionDate": "2026-08-18T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 139,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.2764.50 deposited in bank account ending 5522 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 276450,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5522",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 140,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5551 received money transfer worth INR 2910.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 141,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 3055.50 credited to a/c XX5580 on 21-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 130000.00",
+      "engineAResult": {
+        "amount": 305550,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 130000.00",
+        "accountTail": "5580",
+        "balance": 13000000,
+        "transactionDate": "2026-08-21T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 142,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.3201.00 from rahul.sharma@okaxis to A/c XX5609 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 320100,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5609",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 143,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5638 has been credited with Rs.3346.50 on 23/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 334650,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5638",
+        "balance": null,
+        "transactionDate": "2026-08-23T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 144,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.3492.00 deposited in bank account ending 5667 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 349200,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5667",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 145,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5696 received money transfer worth INR 3637.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 146,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 3783.00 credited to a/c XX5725 on 26-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 132500.00",
+      "engineAResult": {
+        "amount": 378300,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 132500.00",
+        "accountTail": "5725",
+        "balance": 13250000,
+        "transactionDate": "2026-08-26T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 147,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.3928.50 from rahul.sharma@okaxis to A/c XX5754 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 392850,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5754",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 148,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5783 has been credited with Rs.4074.00 on 28/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 407400,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5783",
+        "balance": null,
+        "transactionDate": "2026-08-28T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 149,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.4219.50 deposited in bank account ending 5812 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 421950,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5812",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 150,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5841 received money transfer worth INR 4365.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 151,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 4510.50 credited to a/c XX5870 on 3-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 135000.00",
+      "engineAResult": {
+        "amount": 451050,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 135000.00",
+        "accountTail": "5870",
+        "balance": 13500000,
+        "transactionDate": "2026-08-03T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 152,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.4656.00 from rahul.sharma@okaxis to A/c XX5899 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 465600,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "5899",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 153,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX5928 has been credited with Rs.4801.50 on 5/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 480150,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5928",
+        "balance": null,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 154,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.4947.00 deposited in bank account ending 5957 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 494700,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "5957",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 155,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 5986 received money transfer worth INR 5092.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 156,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 5238.00 credited to a/c XX6015 on 8-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 137500.00",
+      "engineAResult": {
+        "amount": 523800,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 137500.00",
+        "accountTail": "6015",
+        "balance": 13750000,
+        "transactionDate": "2026-08-08T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 157,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.5383.50 from rahul.sharma@okaxis to A/c XX6044 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 538350,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6044",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 158,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6073 has been credited with Rs.5529.00 on 10/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 552900,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6073",
+        "balance": null,
+        "transactionDate": "2026-08-10T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 159,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.5674.50 deposited in bank account ending 6102 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 567450,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6102",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 160,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 6131 received money transfer worth INR 5820.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 161,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 5965.50 credited to a/c XX6160 on 13-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 140000.00",
+      "engineAResult": {
+        "amount": 596550,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 140000.00",
+        "accountTail": "6160",
+        "balance": 14000000,
+        "transactionDate": "2026-08-13T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 162,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.6111.00 from rahul.sharma@okaxis to A/c XX6189 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 611100,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6189",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 163,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6218 has been credited with Rs.6256.50 on 15/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 625650,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6218",
+        "balance": null,
+        "transactionDate": "2026-08-15T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 164,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.6402.00 deposited in bank account ending 6247 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 640200,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6247",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 165,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 6276 received money transfer worth INR 6547.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 166,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 6693.00 credited to a/c XX6305 on 18-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 142500.00",
+      "engineAResult": {
+        "amount": 669300,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 142500.00",
+        "accountTail": "6305",
+        "balance": 14250000,
+        "transactionDate": "2026-08-18T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 167,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.6838.50 from rahul.sharma@okaxis to A/c XX6334 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 683850,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6334",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 168,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6363 has been credited with Rs.6984.00 on 20/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 698400,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6363",
+        "balance": null,
+        "transactionDate": "2026-08-20T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 169,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.7129.50 deposited in bank account ending 6392 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 712950,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6392",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 170,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 6421 received money transfer worth INR 7275.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 171,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 7420.50 credited to a/c XX6450 on 23-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 145000.00",
+      "engineAResult": {
+        "amount": 742050,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 145000.00",
+        "accountTail": "6450",
+        "balance": 14500000,
+        "transactionDate": "2026-08-23T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 172,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.7566.00 from rahul.sharma@okaxis to A/c XX6479 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 756600,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6479",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 173,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6508 has been credited with Rs.7711.50 on 25/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 771150,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6508",
+        "balance": null,
+        "transactionDate": "2026-08-25T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 174,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.7857.00 deposited in bank account ending 6537 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 785700,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6537",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 175,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 6566 received money transfer worth INR 8002.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 176,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 8148.00 credited to a/c XX6595 on 28-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 147500.00",
+      "engineAResult": {
+        "amount": 814800,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 147500.00",
+        "accountTail": "6595",
+        "balance": 14750000,
+        "transactionDate": "2026-08-28T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 177,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.8293.50 from rahul.sharma@okaxis to A/c XX6624 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 829350,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6624",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 178,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6653 has been credited with Rs.8439.00 on 2/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 843900,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6653",
+        "balance": null,
+        "transactionDate": "2026-08-02T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 179,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.8584.50 deposited in bank account ending 6682 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 858450,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6682",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 180,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 6711 received money transfer worth INR 8730.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 181,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 8875.50 credited to a/c XX6740 on 5-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 150000.00",
+      "engineAResult": {
+        "amount": 887550,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 150000.00",
+        "accountTail": "6740",
+        "balance": 15000000,
+        "transactionDate": "2026-08-05T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 182,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.9021.00 from rahul.sharma@okaxis to A/c XX6769 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 902100,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6769",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 183,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6798 has been credited with Rs.9166.50 on 7/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 916650,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6798",
+        "balance": null,
+        "transactionDate": "2026-08-07T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 184,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.9312.00 deposited in bank account ending 6827 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 931200,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6827",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 185,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 6856 received money transfer worth INR 9457.50 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 186,
+      "category": "NEFT / UPI Formats",
+      "body": "Rs 9603.00 credited to a/c XX6885 on 10-AUG-26 by NEFT SALARY CREDIT. Avl Bal Rs 152500.00",
+      "engineAResult": {
+        "amount": 960300,
+        "type": "CREDIT",
+        "merchantOrVpa": "NEFT SALARY CREDIT. Avl Bal Rs 152500.00",
+        "accountTail": "6885",
+        "balance": 15250000,
+        "transactionDate": "2026-08-10T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 187,
+      "category": "NEFT / UPI Formats",
+      "body": "Received Rs.9748.50 from rahul.sharma@okaxis to A/c XX6914 via PhonePe UPI.",
+      "engineAResult": {
+        "amount": 974850,
+        "type": "CREDIT",
+        "merchantOrVpa": "rahul.sharma@okaxis",
+        "accountTail": "6914",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 188,
+      "category": "NEFT / UPI Formats",
+      "body": "Acct XX6943 has been credited with Rs.9894.00 on 12/08/2026 by IMPS Ref 8821940.",
+      "engineAResult": {
+        "amount": 989400,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6943",
+        "balance": null,
+        "transactionDate": "2026-08-12T00:00:00.000Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 189,
+      "category": "NEFT / UPI Formats",
+      "body": "Notice: Rs.10039.50 deposited in bank account ending 6972 from UPI transfer sender: Priya Tech",
+      "engineAResult": {
+        "amount": 1003950,
+        "type": "CREDIT",
+        "merchantOrVpa": null,
+        "accountTail": "6972",
+        "balance": null,
+        "transactionDate": "2026-08-06T06:38:22.886Z"
+      },
+      "engineAMatched": true,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 190,
+      "category": "NEFT / UPI Formats",
+      "body": "Alert: Account ending 7001 received money transfer worth INR 10185.00 from employer payroll via NEFT clearing process",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 191,
+      "category": "Unstructured / Novel SMS",
+      "body": "Sent payment of 120.00 INR for Ramesh grocery shop purchase via wallet",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 192,
+      "category": "Unstructured / Novel SMS",
+      "body": "Chai n snacks Rs.45 bhej diye shopkeeper ko via paytm wallet",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 193,
+      "category": "Unstructured / Novel SMS",
+      "body": "auto fare payment 85rs deduct ho gaya account se just now",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 194,
+      "category": "Unstructured / Novel SMS",
+      "body": "Paid bill worth 650.00 rupees toward electric supply renewal",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 195,
+      "category": "Unstructured / Novel SMS",
+      "body": "cable tv monthly fee 350 INR kat gaya account se",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 196,
+      "category": "Unstructured / Novel SMS",
+      "body": "Transfer 500 rupees done to friend for dinner split contribution",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 197,
+      "category": "Unstructured / Novel SMS",
+      "body": "Deducted 220.00 INR from wallet balance for medicine order at local chemist",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 198,
+      "category": "Unstructured / Novel SMS",
+      "body": "You just sent 150 rs to Kirana store owner for daily ration items",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 199,
+      "category": "Unstructured / Novel SMS",
+      "body": "Laundry service charge 280.00 INR deducted from prepaid balance",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 200,
+      "category": "Unstructured / Novel SMS",
+      "body": "Payment of 410.00 INR completed for online movie ticket booking",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 201,
+      "category": "Unstructured / Novel SMS",
+      "body": "bhej diye 750 rs uncle ko for room rent advance share",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 202,
+      "category": "Unstructured / Novel SMS",
+      "body": "petrol pump billing 300 INR processed via wallet pay",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 203,
+      "category": "Unstructured / Novel SMS",
+      "body": "Chai stall 35 rs paid through quick QR code scan",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 204,
+      "category": "Unstructured / Novel SMS",
+      "body": "Stationery items purchase 180.00 INR paid to vendor",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 205,
+      "category": "Unstructured / Novel SMS",
+      "body": "wifi recharge 599 INR done for broadband account 99120",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 206,
+      "category": "Unstructured / Novel SMS",
+      "body": "Paid 140 rs for parking fee near metro station",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 207,
+      "category": "Unstructured / Novel SMS",
+      "body": "milk delivery monthly charge 920.00 INR sent to dairy seller",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 208,
+      "category": "Unstructured / Novel SMS",
+      "body": "Taxi ride 450 INR fare debited from linked wallet account",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 209,
+      "category": "Unstructured / Novel SMS",
+      "body": "fastfood joint 260.00 INR spent for burger meal deal",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 210,
+      "category": "Unstructured / Novel SMS",
+      "body": "Gym monthly membership 1200 INR transfer completed",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 211,
+      "category": "Unstructured / Novel SMS",
+      "body": "Deducted 80.00 INR for juice corner payment",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 212,
+      "category": "Unstructured / Novel SMS",
+      "body": "Bookstore bill 340.00 INR paid via online wallet",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 213,
+      "category": "Unstructured / Novel SMS",
+      "body": "vegetables market 210 rs paid to vendor bhai",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 214,
+      "category": "Unstructured / Novel SMS",
+      "body": "barber salon haircut 150 INR payment successful",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 215,
+      "category": "Unstructured / Novel SMS",
+      "body": "Your pending balance is 400. Please clear dues soon or service will stop.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": false,
+      "finalCorrect": false,
+      "anomaly": null
+    },
+    {
+      "id": 216,
+      "category": "Unstructured / Novel SMS",
+      "body": "Reminder: 850 INR bill due tomorrow. Ignore if already settled.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": false,
+      "finalCorrect": false,
+      "anomaly": null
+    },
+    {
+      "id": 217,
+      "category": "Unstructured / Novel SMS",
+      "body": "Payment alert: suspicious login attempt detected near IP 192.168.1.1",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": true,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 218,
+      "category": "Unstructured / Novel SMS",
+      "body": "Thank you for visiting Central Mall! Share feedback to win 500 INR coupon.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": false,
+      "finalCorrect": false,
+      "anomaly": null
+    },
+    {
+      "id": 219,
+      "category": "Unstructured / Novel SMS",
+      "body": "Info: Your account request 9821 for 300 INR credit limit change is pending approval.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": false,
+      "finalCorrect": false,
+      "anomaly": null
+    },
+    {
+      "id": 220,
+      "category": "Unstructured / Novel SMS",
+      "body": "Draft order created for 620 INR at Fashion Hub. Complete payment within 10 mins.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": null,
+      "engineBAttempted": true,
+      "engineBCorrect": false,
+      "finalCorrect": false,
+      "anomaly": null
+    },
+    {
+      "id": 221,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your OTP for HDFC NetBanking login is 891204. Do not share with anyone.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 222,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Use OTP 449102 to verify your mobile number on BudgetBuddy.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 223,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Avail up to 50% discount on credit card upgrade! Apply before 31st August.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 224,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Dear customer, your total rewards balance is 450 points. Redeem at bank portal.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 225,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Do not share your UPI PIN with anyone claiming to be a bank official.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 226,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your ICICI Bank Internet Banking password will expire in 5 days. Update now.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 227,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Get instant personal loan up to 5 Lakhs with zero documentation! Click link.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 228,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your monthly e-statement for account XX4912 has been sent to your registered email.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 229,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Pre-approved home loan offer up to 50 Lakhs available for you. Call 1800-XXX-XXXX.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 230,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Update your KYC details by visiting nearest branch to avoid account suspension.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 231,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your OTP for SBI card transaction is 773190 valid for 10 minutes.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 232,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Exclusive sale live now! Get 20% cashback on all credit card purchases today.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 233,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Security alert: Password changed successfully for user ID user_pune99.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 234,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your fastag balance is low (Rs 45.00). Recharge now to avoid toll delay.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 235,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Welcome to Axis Mobile Banking! Tap here to explore new features.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 236,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "OTP for beneficiary addition on Kotak Mahindra Bank is 338102.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 237,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Never enter your UPI PIN to receive money in your account. Stay alert!",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 238,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Congratulations! You earned 100 bonus reward points on your last card swipe.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 239,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Scheduled system maintenance tonight from 2 AM to 4 AM. Services may be affected.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 240,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your bank account statement request 991823 has been processed successfully.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 241,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "OTP for debit card green pin generation is 901244.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 242,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Festive offer: 0% processing fee on car loans till end of month.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 243,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Alert: Login from new device detected on your mobile banking app.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 244,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your loan application ref 883192 is under verification.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 245,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Zero balance savings account opening facility now available online.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 246,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "OTP for netbanking funds transfer is 510923. Valid for 5 mins.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 247,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Important notice: Update your Nominee details online in 3 easy steps.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 248,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Earn 5X reward points on dining and travel expenses this weekend.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 249,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Your branch IFSC code has been updated to HDFC0001892.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    },
+    {
+      "id": 250,
+      "category": "Non-Transaction Noise (OTPs)",
+      "body": "Thank you for contacting customer support. Rate your experience 1-5.",
+      "engineAResult": null,
+      "engineAMatched": false,
+      "engineACorrect": true,
+      "engineBAttempted": false,
+      "engineBCorrect": null,
+      "finalCorrect": true,
+      "anomaly": null
+    }
+  ]
+}
