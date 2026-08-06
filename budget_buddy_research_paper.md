@@ -1,8 +1,8 @@
 # BudgetBuddy: An On-Device Dual-Engine Intelligent Co-Pilot for Privacy-Preserving Personal Finance Management
 
-**Rohan Mali**, **Arya Lingayat**, **Anurag Muley**, **Divija Arjunwadkar**, and **Seema Patil**  
+**Rohan Mali** and **Seema Patil**  
 *Department of Computer Engineering, Pune Vidyarthi Griha's College of Engineering, Technology and Management, Pune 411009, India*  
-Contact: `{22120080, 22120084, 22120087, 22000029, shp_comp}@pvgcoet.ac.in`
+Contact: `{22120080, shp_comp}@pvgcoet.ac.in`
 
 ---
 
